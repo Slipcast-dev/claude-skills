@@ -1,0 +1,18 @@
+{
+  "ai-agents": {"title": "AI & Agents", "description": "Designing, evaluating and operating LLM agents, prompts, MCP servers and AI policy."},
+  "software-engineering": {"title": "Software Engineering", "description": "Coding, architecture, testing, DevOps, infrastructure and developer tooling."},
+  "security-compliance": {"title": "Security, Privacy & Compliance", "description": "Threat modeling, audits, incident response, SOC 2 / ISO 27001 / GDPR readiness."},
+  "data-analytics": {"title": "Data & Analytics", "description": "Metrics, dashboards, experiments, forecasting, spreadsheets and data quality."},
+  "product-design": {"title": "Product & Design", "description": "Product management, roadmaps, UX research, UI and visual design, accessibility."},
+  "marketing-sales": {"title": "Marketing, Sales & Growth", "description": "SEO/AEO, content, ads, launches, sales outreach, pricing and customer success."},
+  "business-strategy": {"title": "Business, Strategy & Finance", "description": "Strategy, fundraising, corporate finance, operations, procurement and governance."},
+  "people-leadership": {"title": "People, HR & Leadership", "description": "Hiring, management, feedback, careers, teams and meetings."},
+  "writing-communication": {"title": "Writing & Communication", "description": "Letters, emails, memos, decks, documentation, storytelling and editing."},
+  "education-research": {"title": "Education & Research", "description": "Learning plans, teaching, academic writing and research methods."},
+  "productivity": {"title": "Productivity & Workflow", "description": "Planning, task triage, focus, notes, reviews and personal systems."},
+  "thinking-decisions": {"title": "Thinking & Decision-Making", "description": "Red-teaming, pre-mortems, steelmanning, brainstorming and second opinions."},
+  "legal-government": {"title": "Legal & Government", "description": "Contracts, tenancy, appeals, courts, immigration and official paperwork."},
+  "personal-finance": {"title": "Personal Finance", "description": "Budgets, debt, loans, insurance, taxes, retirement and big purchases."},
+  "health-wellness": {"title": "Health & Wellness", "description": "Medical visits, medications, fitness, mobility and wellbeing."},
+  "personal-life": {"title": "Home, Family & Lifestyle", "description": "Family, relationships, home, travel, hobbies and life events."}
+}
