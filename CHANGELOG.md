@@ -5,6 +5,10 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- Align the `sample-text-processor` and `playwright-pro` skill directories with their declared names.
+
 ## [1.0.0] - 2026-11-05
 
 ### Added
