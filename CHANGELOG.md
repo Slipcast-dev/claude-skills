@@ -5,7 +5,7 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-11-04
+## [1.0.0] - 2026-11-05
 
 ### Added
 
@@ -13,3 +13,5 @@ All notable changes to this project are documented here. The format follows
 - Generated catalog in `README.md` and a README for each category.
 - `scripts/validate_skills.py`, `scripts/build_index.py` and `scripts/install.sh`.
 - GitHub Actions workflow, issue templates and pull request template.
+- English and Russian project documentation with catalogs generated from the same source.
+- Repository banner and live GitHub badges for stars, releases and release asset downloads.

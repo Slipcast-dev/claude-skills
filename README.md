@@ -1,12 +1,21 @@
 # Claude Skills Collection
 
+![Claude Skills Collection banner](.github/assets/claude-skills.svg)
+
+**English** · [Русский](README.ru.md)
+
+[![GitHub stars](https://img.shields.io/github/stars/Slipcast-dev/claude-skills?style=flat&label=Stars)](https://github.com/Slipcast-dev/claude-skills/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/Slipcast-dev/claude-skills?label=Release)](https://github.com/Slipcast-dev/claude-skills/releases/latest)
+[![Release asset downloads](https://img.shields.io/github/downloads/Slipcast-dev/claude-skills/total?label=Asset%20downloads)](https://github.com/Slipcast-dev/claude-skills/releases)
 [![Validate skills](https://github.com/Slipcast-dev/claude-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/Slipcast-dev/claude-skills/actions/workflows/validate.yml)
 [![License: MIT (tooling)](https://img.shields.io/badge/license-MIT%20(tooling)-blue.svg)](LICENSE)
 
-A categorized collection of **1,814 [Agent Skills](https://docs.claude.com/en/docs/claude-code/skills)** for Claude Code and other tools that read `SKILL.md`, grouped into 16 categories, plus scripts to validate, index and install them.
+A categorized collection of **1,814 [Agent Skills](https://code.claude.com/docs/en/skills)** for Claude Code and other tools that read `SKILL.md`, grouped into 16 categories, plus scripts to validate, index and install them.
 
 > [!IMPORTANT]
 > Many skills come from third-party authors and keep their original licenses. Read [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before you reuse or redistribute them.
+
+The downloads badge counts files attached to GitHub releases. Clones and automatic source archives are excluded from this count.
 
 ## Contents
 
@@ -48,6 +57,8 @@ Categories were assigned automatically from each skill's name and description, t
 
 ## Installation
 
+Clone the repository or download and unpack the source archive from the [latest GitHub release](https://github.com/Slipcast-dev/claude-skills/releases/latest).
+
 Claude Code loads personal skills from `~/.claude/skills/<skill-name>/SKILL.md`, a flat layout. The install script flattens the category folders for you.
 
 ```bash
@@ -70,6 +81,7 @@ DEST=/path/to/project/.claude/skills scripts/install.sh productivity
 To install one skill by hand, copy its folder:
 
 ```bash
+mkdir -p ~/.claude/skills
 cp -R skills/thinking-decisions/premortem-assassin ~/.claude/skills/
 ```
 
@@ -131,12 +143,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). This project follows the [Code of Conduc
 
 - Repository tooling and documentation (everything outside `skills/`): [MIT](LICENSE).
 - Skills in `skills/`: each keeps the license of its original author. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and any `LICENSE` file or `license:` field inside a skill folder.
-
----
-
-<details>
-<summary>На русском</summary>
-
-Коллекция из 1814 скилов для Claude Code, разложенных по 16 категориям в папке `skills/`. Установка всех скилов: `scripts/install.sh`, установка отдельных категорий: `scripts/install.sh <категория>`. Проверка структуры: `python3 scripts/validate_skills.py`. Обновление каталога: `python3 scripts/build_index.py`. Скилы сторонних авторов сохраняют свои лицензии, подробности в [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-</details>

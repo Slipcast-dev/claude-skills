@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Skills Collection</title>
+  <desc id="desc">An open catalog of Agent Skills, illustrated with a stack of skill cards.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#172033"/>
+      <stop offset="1" stop-color="#293955"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+  <path d="M0 236h1200M0 250h1200M0 264h1200" stroke="#9aafcb" opacity=".13"/>
+  <text x="66" y="91" fill="#ffad8d" font-family="system-ui,sans-serif" font-size="23" font-weight="700" letter-spacing="4">SLIPCAST DEV</text>
+  <text x="62" y="170" fill="#fff" font-family="system-ui,sans-serif" font-size="65" font-weight="750">Claude Skills Collection</text>
+  <g fill="#202e46" stroke-width="3">
+    <rect x="950" y="70" width="152" height="120" rx="12" stroke="#9aafcb" transform="rotate(12 1026 130)"/>
+    <rect x="919" y="96" width="152" height="120" rx="12" stroke="#ffad8d" transform="rotate(-8 995 156)"/>
+  </g>
+  <path d="m963 142-13 13 13 13m32-26 13 13-13 13m-10-33-13 40" fill="none" stroke="#ffad8d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

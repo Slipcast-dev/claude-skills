@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the skill catalog: the index block in README.md and skills/<category>/README.md.
+"""Generate the skill catalog: the index blocks in both root READMEs and skills/<category>/README.md.
 
 Usage: python3 scripts/build_index.py [--check]
   --check  exit with code 1 if generated files are out of date (used in CI).
@@ -39,12 +39,14 @@ def build() -> dict[Path, str]:
     cats = json.loads((ROOT / "categories.json").read_text(encoding="utf-8"))
     files: dict[Path, str] = {}
     summary = ["| Category | Skills | Description |", "|---|---:|---|"]
+    summary_ru = ["| Категория | Навыки |", "|---|---:|"]
     total = 0
     for slug, meta in cats.items():
         cdir = SKILLS / slug
         skills = sorted(p for p in cdir.iterdir() if (p / "SKILL.md").is_file()) if cdir.is_dir() else []
         total += len(skills)
         summary.append(f"| [{meta['title']}](skills/{slug}/) | {len(skills)} | {meta['description']} |")
+        summary_ru.append(f"| [{meta['title_ru']}](skills/{slug}/) | {len(skills)} |")
         lines = [f"# {meta['title']}", "", meta["description"], "",
                  f"**{len(skills)} skills.** Back to the [main catalog](../../README.md).", "",
                  "| Skill | Description |", "|---|---|"]
@@ -53,10 +55,19 @@ def build() -> dict[Path, str]:
             lines.append(f"| [`{s.name}`]({s.name}/SKILL.md) | {short(fm.get('description', ''))} |")
         files[cdir / "README.md"] = "\n".join(lines) + "\n"
     summary.append(f"| **Total** | **{total}** | |")
-    readme_path = ROOT / "README.md"
-    readme = readme_path.read_text(encoding="utf-8")
-    block = f"{START}\n" + "\n".join(summary) + f"\n{END}"
-    files[readme_path] = re.sub(re.escape(START) + r".*?" + re.escape(END), block, readme, flags=re.S)
+    summary_ru.append(f"| **Итого** | **{total}** |")
+
+    # Обе языковые версии используют одни и те же данные о навыках.
+    for filename, rows in (("README.md", summary), ("README.ru.md", summary_ru)):
+        readme_path = ROOT / filename
+        readme = readme_path.read_text(encoding="utf-8")
+        block = f"{START}\n" + "\n".join(rows) + f"\n{END}"
+        files[readme_path] = re.sub(
+            re.escape(START) + r".*?" + re.escape(END),
+            lambda _: block,
+            readme,
+            flags=re.S,
+        )
     return files
 
 
