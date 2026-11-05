@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "okr-design"
 description: "OKR design as actually shipped, not as conference-talk theory. Outcome statements that drive decisions, key results that measure the right thing, scoring discipline, mid-quarter recalibration, and the difference between sandbagged OKRs (always 100%) and aspirational OKRs (always 30%) and stretch OKRs (genuine ambition with quarterly accountability). Triggers on OKR design, OKR setting, key result design, OKR scoring, mid-quarter recalibration, OKR cascading, outcomes vs outputs, quarterly planning, goal setting. Also triggers when a team's OKRs are always hit and producing no learning, when OKRs are demoralizing because they were set as fantasy, or when the team uses OKR vocabulary but the practice has decayed."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # OKR Design

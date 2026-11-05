@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: competitive-intelligence-monitor
 description: "Monitor competitor signals and surface strategic implications for your roadmap. Use when asked to monitor competitors, track the competitive landscape, produce a competitive briefing, or understand what has changed in the market this week or month. Produces a structured intelligence brief with high/medium/low priority signals, roadmap implications, and a strategic landscape summary. For a single competitor announcement use competitor-signal-tracker; for a one-off deep dive use competitor-teardown."
 duet:
@@ -8,6 +7,7 @@ duet:
   default_action: summarise
   requires_approval: send, post
   cadence: daily
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Competitive Intelligence Monitor Skill

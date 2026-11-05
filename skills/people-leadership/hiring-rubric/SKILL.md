@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: hiring-rubric
 description: "Generate a structured interview scorecard and interview guide for any role. Use when asked to create a hiring rubric, interview scorecard, structured interview guide, or assessment criteria for a job. Produces a scorecard with competencies, behavioural questions, and scoring guidance."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Hiring Rubric Skill

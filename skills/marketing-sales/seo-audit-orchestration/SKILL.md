@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "seo-audit-orchestration"
 description: "Coordinate a full or explicitly partial SEO audit using available tools and supplied exports. Use this skill when running a comprehensive SEO audit, scoping a quarterly health check, doing pre-acquisition SEO due diligence, or post-migration verification. Triggers on full SEO audit, comprehensive SEO review, SEO health check, audit my site, SEO due diligence, audit suite, comprehensive audit, end-to-end SEO. Also triggers when a stakeholder wants the complete picture rather than a single-dimension audit."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SEO Audit Orchestration

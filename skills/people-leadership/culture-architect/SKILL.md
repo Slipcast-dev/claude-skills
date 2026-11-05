@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "culture-architect"
 description: "Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health, designing cultural rituals, creating culture codes, handling culture clashes, or when user mentions culture, values, culture debt, founder culture, or culture code."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   domain: culture-leadership
   updated: 2026-03-05
   frameworks: culture-playbook, culture-code-template
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Culture Architect

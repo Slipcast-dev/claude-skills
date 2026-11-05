@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "product-analytics-setup"
 description: "How to actually instrument product analytics correctly. Event taxonomy, property design, naming conventions, schema versioning, identity stitching, funnel design, retention cohorts, North Star metric selection, dashboard hygiene, instrumentation debt, and the failure modes that produce data nobody trusts. Triggers on product analytics setup, event taxonomy, tracking plan, instrumentation, schema versioning, North Star metric, retention cohorts, funnel design, naming conventions, instrument new feature, audit existing analytics, dashboard reconciliation, instrumentation debt, Mixpanel setup, Amplitude setup, PostHog setup, warehouse-native analytics. Also triggers when the team has data but cannot trust it, or when designing instrumentation for a new feature, or when auditing an existing setup that has drifted."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Product Analytics Setup

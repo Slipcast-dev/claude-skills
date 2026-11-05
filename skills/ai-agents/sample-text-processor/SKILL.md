@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: sample-text-processor
 description: "Reference BASIC-tier skill used as a fixture by skill-tester. Counts words and characters and applies basic text transformations. Use when validating skill-tester itself or when you need a minimal, known-good skill layout to copy. Not a production skill."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Sample Text Processor

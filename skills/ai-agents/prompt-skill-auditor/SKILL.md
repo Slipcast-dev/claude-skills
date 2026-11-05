@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: prompt-skill-auditor
 description: Audit prompts, CLAUDE.md files, system instructions, and Claude Code skills for clarity, conflicts, outdated model assumptions, security risks, and operational quality; propose or implement focused improvements when requested.
 metadata:
   short-description: Audit and modernize prompts, instructions, and skills
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Prompt and Skill Auditor

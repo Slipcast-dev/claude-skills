@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-backend
 description: >-
   Builds the backend of an app clone: auth, database migrations and access
@@ -8,6 +7,7 @@ description: >-
   the user says "add login", "set up auth", "wire up the database", "add
   payments", "connect Stripe", "add Google Calendar", "send emails",
   "backend for my clone", or when /replica-build is running on fake data.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-backend

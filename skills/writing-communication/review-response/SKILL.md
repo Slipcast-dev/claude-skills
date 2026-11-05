@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: review-response
 description: "Write the right reply to a customer review — positive, negative, or mixed. Use when asked to respond to a review, reply to a bad/1-star review, handle online reviews, or write review-response templates. Produces tailored, on-brand responses that thank advocates, de-escalate and resolve complaints, and read well to the *future* shopper who's reading them — plus reusable templates."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Review Response Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: okr-builder
 description: "Create well-structured OKRs (Objectives and Key Results) for product teams, startups, and individuals. Use when asked to write OKRs, set quarterly goals, define key results, or review existing OKRs. Produces a complete OKR set with objectives, measurable key results, baselines, and a scoring guide."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # OKR Builder Skill

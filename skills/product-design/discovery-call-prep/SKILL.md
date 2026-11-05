@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: discovery-call-prep
 description: "Prepare a structured discovery call plan for any prospect. Use when asked to prepare for a sales call, discovery call, prospect meeting, or first call with a potential customer. Produces a call brief with research, hypotheses, questions, and success criteria."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Discovery Call Prep Skill

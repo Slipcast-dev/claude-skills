@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: architecture-decision-record
-description: "Create an Architecture Decision Record (ADR) for any technical decision. Use when asked to document a technical decision, write an ADR, record an architecture choice, or capture why a technology or approach was selected. Produces a structured ADR with context, decision, consequences, and tradeoffs."
+description: "Create an Architecture Decision Record (ADR) for any technical decision."
 ---
 
 # Architecture Decision Record (ADR) Skill

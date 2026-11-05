@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "content-brief-authoring"
 description: "How to author a content brief that actually guides a writer (human or AI) to produce a piece that ranks, converts, or both. Per-piece editorial brief: target keyword and cluster, search intent, audience and JTBD, heading structure, entity coverage for AEO/GEO, internal linking strategy, success criteria. The middle path between thin briefs (a keyword and a deadline) and thick briefs (a 4-page document nobody reads). Triggers on content brief, brief the writer, brief the article, brief authoring, content brief template, brief audit, per-piece brief, editorial brief, target keyword brief, search intent brief. Also triggers when briefing a human writer or an AI agent on a single content piece."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Content Brief Authoring

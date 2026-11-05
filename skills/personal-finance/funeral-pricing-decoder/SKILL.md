@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: funeral-pricing-decoder
 description: "Decode a funeral home price list while grieving — the package maths versus the itemised list, the non-declinable basic fee, the upsells that arrive as care, and the direct-cremation benchmark that anchors every other number. Use when asked to compare funeral quotes, is this funeral price fair, what can we decline, or help me read this price list. Produces a line-by-line decode, the decline-safely list, package-versus-itemised maths, questions for the director, and a comparison across homes. Consumer information, not legal advice; disclosure rules are strongest in the US (FTC Funeral Rule)."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Funeral Pricing Decoder

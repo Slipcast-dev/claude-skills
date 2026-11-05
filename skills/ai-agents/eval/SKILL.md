@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "eval"
 description: "Evaluate and rank agent results by metric or LLM judge for an AgentHub session. Use when the user runs /hub:eval or asks to score, compare, or pick a winner among completed AgentHub agents."
 metadata:
   command: /hub:eval
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /hub:eval — Evaluate Agent Results

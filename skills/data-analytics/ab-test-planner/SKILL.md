@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: ab-test-planner
 description: "Design statistically rigorous A/B tests for product features, UI changes, onboarding flows, and pricing experiments. Use when asked to set up an experiment, design an A/B test, calculate sample size, or interpret test results. Produces a complete test plan with hypothesis, variant definitions, sample size, duration estimate, guardrail metrics, and a results interpretation guide."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # A/B Test Planner Skill

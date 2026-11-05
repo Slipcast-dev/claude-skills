@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: threat-model
-description: "Threat-model a system or feature to find where it could be attacked, before you build it. Use when asked to threat-model, do a security design review, document security risks, identify attack surface, or apply STRIDE to a design. Produces a structured threat model: assets, trust boundaries and data flows, threats enumerated by category (STRIDE), risk scores, prioritized mitigations, and residual-risk sign-off. Defensive security for systems you own or are authorized to assess."
+description: "Threat-model a system or feature to find where it could be attacked, before you build it."
 ---
 
 # Threat Model Skill

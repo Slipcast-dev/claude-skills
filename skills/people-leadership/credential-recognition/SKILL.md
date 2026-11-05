@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: credential-recognition
 description: "Get foreign qualifications, degrees, or professional licenses recognised in a new country — figure out whether recognition is even needed, which body assesses it, what evidence they want, and the bridging route if there's a gap. Use when someone says 'get my degree recognised abroad', 'is my foreign license valid here', 'credential evaluation', or 'can I work as a [nurse/engineer/teacher] in [country] with my qualifications'. Produces a recognition roadmap, the assessing body, an evidence checklist, and the bridging options. Routes to official assessment bodies; requirements are country- and profession-specific."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Credential Recognition Skill

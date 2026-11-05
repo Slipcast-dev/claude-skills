@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: agent-memory
 description: Use when a project's CLAUDE.md has grown past what anyone reads and you want the agent to learn durable facts from its own sessions instead — or when asking why the agent keeps re-learning the same correction, why a remembered rule is wrong, or where a memory line came from. Implements a four-tier store (L0 transcripts / L1 candidates / L2 project context / L3 stable persona) where promotion is earned by recurrence across sessions and days, never by one confident statement, and nothing reaches a committed file without a human adopting it.
 argument-hint: "[optional: status | why \"<claim>\" | a tier name]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Tencent TencentDB-Agent-Memory's tiering concept rebuilt natively on Claude Code hooks; deterministic recurrence gates, no LLM, no database"
   distinct_from: "llm-wiki (a vault you write on purpose; this writes itself from sessions); skillopt-sleep (replays tasks to improve a skill; this extracts facts to remember); memory-engineering (audits and prices any memory system; this IS one, and is a legitimate subject of that audit)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Agent Memory — promotion is earned, not asserted

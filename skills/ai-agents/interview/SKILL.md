@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: interview
 description: Phase 1 of building a Claude Managed Agent — interview the founder about the one job the agent should do, then produce a build sheet (CMA primitives table + v1/v2 deferrals + eval plan) WITHOUT needing their API key yet. Use when the user says "help me scope an agent", "I have an idea for an agent", "what should this agent be", or when the orchestrator routes phase=interview. Drives the six intake slots (job, trigger, inputs, actions, definition-of-done, recurrence) via AskUserQuestion, maps them to primitives with interview_planner.py, assembles build-sheet.json with build_sheet_builder.py, and validates limits with primitives_validator.py. Connectors are mockable in v0 (schema-true custom tools); real MCP servers become v1 deferrals. Distinct from stage-launch (which turns the sheet into payloads).
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   tags: [cma, interview, scoping, build-sheet, primitives, deferrals, eval-plan]
   compatible_tools: [claude-code, codex-cli, cursor, antigravity, opencode, gemini-cli]
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Phase 1 — Interview → Plan

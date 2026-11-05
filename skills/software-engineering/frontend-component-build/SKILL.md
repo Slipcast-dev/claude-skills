@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "frontend-component-build"
 description: "Build production-ready frontend components with accessible markup, sensible props, defined states, and tested behavior. Use this skill whenever the user wants to build a component from scratch, refactor an existing one, design a component API, or implement a UI element with proper states and accessibility. Triggers on build a component, create a button, create a modal, create a form input, component API, props design, component states, refactor component, accessible component. Also triggers when implementing UI from a design that needs to be reusable."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Frontend Component Build

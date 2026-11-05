@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: memory-engineering
 description: Use when designing, reviewing, or paying for an agent memory system — adding memory to an agent, choosing between long-context / RAG / graph / agentic memory, auditing what a CLAUDE.md or memory directory actually holds, deciding what to keep and what to expire, or when a memory store keeps growing and nobody has said what leaves it. Prices the write path, picks which cost to pay, classifies records as facts / skills / logs, and refuses a design that has no forgetting policy.
 argument-hint: "[optional: path to a memory dir, design spec JSON, or a question]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Four-lens synthesis (Stanford / Microsoft / Anthropic / Nvidia) + 4 deterministic stdlib scripts, with a blocking forgetting gate"
   distinct_from: "llm-wiki (maintains one specific markdown vault; this audits and prices any memory system); skillopt-sleep (runs a nightly consolidation loop; this decides whether that loop's output is worth keeping); agent-harness (bounds a task loop; this bounds a store)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Memory Engineering — engineer the forgetting, not just the remembering

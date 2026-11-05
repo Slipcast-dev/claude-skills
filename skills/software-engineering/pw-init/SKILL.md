@@ -1,10 +1,10 @@
 ---
-disable-model-invocation: true
 name: "pw-init"
 description: >-
   Set up Playwright in a project. Use when user says "set up playwright",
   "add e2e tests", "configure playwright", "testing setup", "init playwright",
   or "add test infrastructure".
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Initialize Playwright Project

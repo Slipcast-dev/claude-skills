@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "seo-backlink-audit"
 description: "Audit a backlink profile using Ahrefs MCP data: profile health, anchor text distribution, toxic link identification, lost link reclamation, and gap analysis against competitors. Use this skill when reviewing backlink health, scoping a disavow project, recovering from a manual action, planning link building, or doing M&A due diligence on a property's link equity. Triggers on backlink audit, link profile, toxic links, disavow, anchor text analysis, lost links, link reclamation, referring domains, link gap. Also triggers when traffic decline correlates with link loss or when an unnatural link warning appears in Search Console."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SEO Backlink Audit

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: roadmap-communicator
 description: Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Roadmap Communicator

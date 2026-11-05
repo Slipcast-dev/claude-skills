@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: tool-procurement-eval
 description: "Evaluate a new tool before it joins the stack — the problem-first framing (tools answer needs, not demos), the trial designed with success criteria upfront, the stack-fit check (integration, overlap, the tool-sprawl tax), and the security/data review sized to the stakes. Use when asked should we buy this tool, evaluate this software for the team, we have three tools that do this already, or run a proper trial before committing. Produces the need statement, the trial design with pre-set criteria, the stack-fit audit, and the adopt/decline verdict with its reasoning."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Tool Procurement Eval Skill

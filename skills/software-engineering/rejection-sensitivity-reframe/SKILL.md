@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: rejection-sensitivity-reframe
 description: "Reread a harsh message, criticism, or perceived slight without the emotional spike — separate what was actually said from what your brain is amplifying. Use when asked this message really stung, am I overreacting to this, help me not spiral over this feedback, or did they mean it that way. Produces a calm read of what was literally said vs the story you've layered on, a check on the most likely (usually more neutral) intent, whether any action is actually warranted, and a grounded response option — easing the disproportionate sting that rejection-sensitive brains feel."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Rejection-Sensitivity Reframe

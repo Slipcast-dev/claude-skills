@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "tech-stack-evaluator"
 description: Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Technology Stack Evaluator

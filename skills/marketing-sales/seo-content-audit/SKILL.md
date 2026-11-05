@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "seo-content-audit"
 description: "Audit existing content across a site to decide what to keep, update, merge, redirect, or delete. Use this skill whenever the user wants to audit existing content, fix content decay, resolve keyword cannibalization, prune underperforming pages, prioritize content updates, or apply a keep/update/merge/redirect/delete framework to a content library. Triggers on content audit, content decay, content refresh, cannibalization, keyword cannibalization, prune content, delete pages, redirect old pages, content inventory, what to keep, what to update, content scorecard, evergreen refresh. Also triggers when traffic is dropping site-wide and the cause might be content quality, even if 'audit' is not said explicitly."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Content Audit

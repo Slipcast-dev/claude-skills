@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "strategic-alignment"
 description: "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pulling in different directions, OKRs don't connect, departments optimize locally at company expense, or when user mentions alignment, strategy cascade, silo, conflicting OKRs, or strategy communication."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-03-05
   python-tools: alignment_checker.py
   frameworks: alignment-playbook
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Strategic Alignment Engine

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: md-slides
 description: "Converts a markdown deck (slides separated by `---` HR boundaries or by `# ` H1 headings, with optional HTML-comment `notes:` presenter-notes blocks) into a single-file HTML presentation with arrow-key / space / PgDn / PgUp / Home / End / P / Esc keyboard navigation, presenter mode (split view with current slide + speaker notes + clock + next-slide preview), URL-hash deep linking, and `@media print` page-per-slide for PDF export. Triggers when the markdown-html-orchestrator classifies an input as SLIDES, or when invoked directly via /cs-md-slides. Reuses md-document's markdown parser for slide-body rendering and reads design-system tokens via config_loader.py. Refuses if input has no clear slide boundaries, produces a 1-slide deck, or `--strict-notes` is on with under 50% notes coverage. Use after orchestrator routing."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   tags: [markdown, html, slides, deck, presenter-mode, keyboard-nav, print-to-pdf, single-file, design-system]
   compatible_tools: [claude-code, codex-cli, cursor, antigravity, opencode, gemini-cli]
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # md-slides — Markdown deck → single-file HTML presentation

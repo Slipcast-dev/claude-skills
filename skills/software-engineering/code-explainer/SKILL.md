@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: code-explainer
-description: "Explain what a piece of code does in plain English, at the depth the reader needs. Use when asked to explain code, walk through a function, understand an unfamiliar snippet, or onboard to a file. Produces a one-line summary, a step-by-step walkthrough, the non-obvious parts called out, and any bugs or smells spotted along the way."
+description: "Explain what a piece of code does in plain English, at the depth the reader needs."
 ---
 
 # Code Explainer Skill

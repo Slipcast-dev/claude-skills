@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: content-calendar
 description: "Generate a structured content calendar for any brand, product, or creator. Use when asked for a content plan, editorial calendar, social media schedule, or weekly/monthly content strategy. Produces a calendar with topics, formats, channels, and copy hooks."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Content Calendar Skill

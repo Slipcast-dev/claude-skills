@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: "decide"
-description: "/c-level-agents:decide [memo] — Log a decision to two-layer memory via decision-logger. Approved memo becomes durable; raw transcripts kept for reference. Use when the founder has approved a boardroom memo and the decision must become durable company memory — e.g. right after /c-level-agents:boardroom concludes."
+description: "/c-level-agents:decide [memo] — Log a decision to two-layer memory via decision-logger."
 ---
 
 # /c-level-agents:decide — Log the Decision

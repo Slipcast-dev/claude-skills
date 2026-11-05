@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "copy-editing"
 description: "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Copy Editing

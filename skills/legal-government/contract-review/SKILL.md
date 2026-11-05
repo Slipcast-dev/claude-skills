@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: contract-review
 description: "Review and summarise any contract or legal agreement. Use when asked to review a contract, check an agreement, flag legal risks, or summarise key clauses. Produces a structured review with key terms, flagged clauses, risk rating, and plain English summary. Not a substitute for qualified legal advice."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Contract Review Skill

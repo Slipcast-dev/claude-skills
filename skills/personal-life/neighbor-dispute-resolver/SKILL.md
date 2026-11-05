@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: neighbor-dispute-resolver
 description: "Handle a neighbor conflict — noise, boundaries, parking, shared costs, pets — with a measured approach that de-escalates first and keeps a paper trail if it has to go formal. Use when asked to deal with a neighbor dispute, my neighbor is [too loud / over the boundary / blocking me], how do I talk to my neighbor about, or write a letter to my neighbor. Produces a read on the situation, a calm first conversation or friendly note, a firmer written follow-up if that fails, the documentation habit for escalation, and the right next step (mediation / landlord / HOA / council) — steering away from making it worse."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Neighbor-Dispute Resolver

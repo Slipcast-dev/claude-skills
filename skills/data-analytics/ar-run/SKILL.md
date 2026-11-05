@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "ar-run"
 description: "Run a single experiment iteration. Edit the target file, evaluate, keep or discard. Use when the user runs /ar:ar-run or asks for one manual autoresearch iteration."
 metadata:
   command: /ar:ar-run
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /ar:ar-run — Single Experiment Iteration

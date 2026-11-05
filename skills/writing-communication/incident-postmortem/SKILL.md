@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: incident-postmortem
 description: "Write a structured incident postmortem or post-incident review. Use when asked to write a postmortem, incident report, P1/P2 review, outage report, or RCA (root cause analysis). Produces a blameless postmortem with timeline, root cause, contributing factors, impact summary, and action items."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Incident Postmortem Skill

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: dossier
 description: "Decision-grade entity research skill — produces a hypothesis-tested dossier on a specific company, person, nonprofit, or government org, not a generic profile. Forcing intake makes the user state their hypothesis upfront (what they already believe and want to verify or disprove) so the dossier tests it rather than confirms it. Output is an editable Word document (.docx) with verdict on the hypothesis, identity facts, 12-month activity timeline, network and reputation signals, red flags, conversation hooks tied to specific findings, and source-provenance audit log. Uses WebSearch + WebFetch + free APIs (SEC EDGAR, GitHub, ProPublica) as workhorses; optional BYOK MCPs enhance coverage. Use when the user asks for background research, diligence, or meeting prep on a specific entity (e.g., 'prep me for a meeting with [person/company]', 'due diligence on [company]'). Honors sensitivity exclusions for journalism + personal-vetting contexts."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   build_pattern: "Path B (direct conversion)"
   research_pack_convention: "Agent Integrity Rules verbatim per PR #657 audit; hypothesis-testing variant"
   version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Dossier — Decision-Grade Entity Research

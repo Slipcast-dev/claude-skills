@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: claude-project-setup
-description: "Set up a repo or project so an AI coding agent works well in it — the CLAUDE.md, the context, the guardrails, and the conventions the agent needs to be useful instead of lost. Use when asked how do I set up CLAUDE.md, configure my repo for Claude Code, my AI agent keeps getting my project wrong, or onboard an AI agent to my codebase. Produces a structured CLAUDE.md/project-context file (architecture, conventions, commands, do-nots), the right level of detail (enough to orient, not a novel), the guardrails that keep the agent safe (what not to touch, how to test), and a maintenance habit so it stays current — turning a repo an agent flails in into one it navigates like a teammate."
+description: "Set up a repo or project so an AI coding agent works well in it — the CLAUDE.md, the context, the guardrails, and the conventions the agent needs to be useful…"
 ---
 
 # Claude Project Setup

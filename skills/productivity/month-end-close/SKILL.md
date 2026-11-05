@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: month-end-close
 description: Use when running, planning or speeding up a month-end (or quarter-end) close — building or reviewing the close checklist and calendar, reconciling a bank statement or sub-ledger to the general ledger, writing or reviewing flux (variance) explanations, or finding why the close takes too many days. Orders close tasks by dependency and finds the critical path, proves each reconciliation and ages what is left, and refuses to sign off material fluctuations explained with boilerplate.
 argument-hint: "[close plan JSON | GL and bank CSVs | trial balance comparison CSV]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Three-gate close (calendar, reconciliation proof, flux explanations) with 3 deterministic stdlib scripts and blocking exit codes; control expectations cited to COSO 2013 and PCAOB AS 2201 / AS 2305 / SAPA 11"
   distinct_from: "financial-analyst (ratios, DCF, budgets, forecasts); saas-metrics-coach (ARR, churn, unit economics); research-finance (R&D program budgets and capitalisation); this skill runs the accounting close itself"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Month-End Close

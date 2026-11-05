@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: notebooklm
 description: "Browser automation skill for controlling Google's NotebookLM. Use when the user wants anything done in NotebookLM (e.g., 'open NotebookLM', 'check my [name] notebook', 'ask my notebook about X', 'add [source] to NotebookLM', 'generate a Video Overview from my notebook', 'use NotebookLM Studio'). Handles reading and querying notebooks, adding sources (URLs, text, files, YouTube links, synthesized content), generating Studio outputs (Audio/Video Overviews, Mind Maps, Reports incl. Briefing Doc/Study Guide/FAQ, Flashcards, Quiz, slide decks, infographics — discover the exact set from the live Studio panel; the UI evolves fast), and creating new notebooks. Requires browser automation environment — fails gracefully when unavailable."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   build_pattern: "Path B (direct conversion)"
   shape: "browser-automation (distinct from research-pack convention)"
   version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # NotebookLM — Browser Automation

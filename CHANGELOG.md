@@ -5,6 +5,19 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-05
+
+### Added
+
+- `driver-mas` and `skill-finder` in AI & Agents; 1,816 skills in total.
+
+### Changed
+
+- Refresh all 1,814 existing skills from the 2026-11-05 source collection, preserving categorized paths and normalized skill directory names.
+- Update invocation settings: 1,706 skills require an explicit call; 110 do not disable model invocation.
+- Refresh `md-slides` and skill metadata from the supplied source.
+- Regenerate the English and Russian catalogs and document external dependencies of the new skills.
+
 ### Fixed
 
 - Align the `sample-text-processor` and `playwright-pro` skill directories with their declared names.

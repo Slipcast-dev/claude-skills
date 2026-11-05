@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: product-launch-checklist
 description: "Generate a comprehensive pre-launch, launch day, and post-launch checklist for any product release. Use when preparing for a product launch, feature release, or major update. Produces a role-assigned, tiered checklist covering engineering readiness, marketing and comms, support, and post-launch monitoring."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Product Launch Checklist Skill

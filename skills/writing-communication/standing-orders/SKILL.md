@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: standing-orders
 description: "Write the operating manual a proactive agent follows between your messages: who is a VIP, what it may always do, what it must never do, the tone it writes in, and when it must stop and ask. Use when asked to write standing orders for my agent, set ground rules for Duet, tell my agent how to behave when I am not there, write my agent's operating manual, or set always and never rules for a proactive agent. Produces a one-page standing-orders file to paste into the agent's memory or instructions, with the always list, the never list, VIPs, tone rules, escalation triggers and a review date."
 duet:
@@ -8,6 +7,7 @@ duet:
   default_action: draft
   requires_approval: send, post, pay, sign, delete, book
   cadence: on-demand
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Standing Orders Skill

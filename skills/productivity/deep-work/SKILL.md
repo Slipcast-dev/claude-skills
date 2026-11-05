@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: deep-work
 description: Use when someone wants to plan a deep work day, time-block their calendar or task list, budget or cut shallow work, protect focus hours, track deep-work sessions and streaks, run an end-of-day shutdown ritual, or says "/deep-work" or "/time-block". Classifies tasks deep vs shallow, builds an energy-first time-blocked schedule that refuses deep demand past the 4-hour ceiling, batches shallow work into at most two windows, and logs focus sessions against a weekly target.
 argument-hint: "[today's task list]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Path-B method skill — Cal Newport time-block discipline preserved + deterministic scheduling scripts added"
   distinct_from: "andreessen 3x5 card (picks WHAT to do today; deep-work plans WHEN and HOW with attention protected); project-management capacity planning (team capacity; this is one person's attention)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Deep Work — Time-Block the Day, Budget the Shallow

@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: literature-review
-description: "Structure and write a literature review for any research topic. Use when asked to write a literature review, systematic review summary, narrative review, or research background section. Produces a structured review with thematic organisation, critical analysis, and gap identification."
+description: "Structure and write a literature review for any research topic."
 ---
 
 # Literature Review Skill

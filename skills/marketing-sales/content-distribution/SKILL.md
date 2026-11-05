@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "content-distribution"
 description: "Content distribution as a discipline. Owned channels (newsletter, blog, social), earned channels (PR, syndication, mentions), paid channels (boosted posts, syndication networks), and the channel-fit decisions that distinguish strategic distribution from spam-everywhere. Audience-channel matching, content-channel matching, distribution cadence. Triggers on content distribution, channel strategy for content, owned earned paid channels, content amplification, content promotion, audience-channel matching, content-channel matching, distribution cadence, syndication strategy, organic distribution. Also triggers when content is publishing but reach is low, when the team is distributing on every channel without strategy, or when the content program needs a distribution discipline rather than just publication."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Content Distribution

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: experiment-designer
 description: "Design statistically rigorous A/B tests and interpret experiment results. Use when asked to design an experiment, run an A/B test, calculate sample size, interpret test results, or assess whether an experiment was successful. Produces a complete experiment design with hypothesis, sample size, run time, success criteria, and risk flags — or a results interpretation with ship/iterate/kill recommendation."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Experiment Designer Skill

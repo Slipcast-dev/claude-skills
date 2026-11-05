@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: sql-query-explainer
 description: "Explains, optimises, writes, and documents SQL queries. Use when asked to explain a SQL query, optimise slow SQL, translate SQL to plain English for non-technical stakeholders, write a query from a natural language description, or produce query documentation. Produces plain-English explanations, annotated optimised queries, or a data dictionary covering output shape, assumptions, and known limitations. Works across PostgreSQL, MySQL, BigQuery, Snowflake, and standard SQL."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SQL Query Explainer Skill

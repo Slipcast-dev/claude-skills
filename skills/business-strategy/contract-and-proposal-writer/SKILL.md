@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "contract-and-proposal-writer"
 description: "Generate professional, jurisdiction-aware business documents: freelance contracts, project proposals, SOWs, NDAs, and MSAs. Structured Markdown output with docx conversion instructions. Covers US (Delaware), EU (GDPR), UK, and DACH (German law) jurisdictions. Not a substitute for legal counsel — use as strong starting points. Use when drafting a freelance contract, preparing a client proposal, writing an SOW for a new engagement, or producing an NDA before sharing sensitive material."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Contract & Proposal Writer

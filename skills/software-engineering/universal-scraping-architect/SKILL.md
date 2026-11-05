@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "universal-scraping-architect"
 description: "Use for web scraping, crawling, document extraction, API parsing, or building validation-heavy data pipelines using Firecrawl or local Python scripts."
 ---

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "pr-review-expert"
 description: "Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # PR Review Expert

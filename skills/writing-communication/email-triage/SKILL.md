@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: email-triage
 description: "Triage a Gmail inbox down to only what needs you. Use when asked to triage email, clear an inbox, find what needs a reply, or summarise recent mail. Produces a prioritised list of items needing action — replies, decisions, follow-ups — for a configurable window (default last 8 hours), filtering out receipts, notifications, and newsletters."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Email Triage

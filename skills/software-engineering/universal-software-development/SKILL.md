@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: universal-software-development
 description: Выбрать инженерный процесс и профильные навыки для новой или межплатформенной задачи разработки, когда основной маршрут ещё не определён. Не дублировать уже выбранный профильный процесс реализации или ревью.
 metadata:
   short-description: Выбор инженерного процесса и профиля
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Маршрутизация разработки

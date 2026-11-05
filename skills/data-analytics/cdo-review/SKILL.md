@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "cdo-review"
 description: "/c-level-agents:cdo-review [plan] — Decision-driven Chief Data Officer interrogation of any plan that touches training data, data architecture, data productization, or data team hiring. Use when validating training-data rights before model work, choosing warehouse vs lakehouse vs mesh, or valuing data assets for productization or M&A."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /c-level-agents:cdo-review — CDO Forcing Questions

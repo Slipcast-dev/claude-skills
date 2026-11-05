@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: physio-progress-note
 description: "Write a physiotherapy progress note that shows clinical reasoning rather than attendance — what changed against the reassessment markers, what that means for the hypothesis, and what the plan does next. Use when asked to write a progress note, document a follow-up appointment, justify continued treatment to a funder, or when notes read as a list of what was done. Produces the reassessment against markers, the interpretation, the plan change with its reason, the objective-measure trend, and the discharge trajectory. A documentation framework for a licensed clinician; the clinical content remains theirs."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Physiotherapy Progress Note

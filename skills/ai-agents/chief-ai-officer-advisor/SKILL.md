@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "chief-ai-officer-advisor"
 description: "Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution. Use when deciding whether to call an API or fine-tune, classifying AI use cases for regulatory risk, calculating when self-hosting pays off, sequencing AI hires, or when user mentions CAIO, AI strategy, model selection, foundation model, fine-tuning, EU AI Act, NIST AI RMF, AI governance, model risk, or AI economics. Strategic only — does not duplicate engineering AI/ML skills."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-05-12
   python-tools: model_buildvsbuy_calculator.py, ai_risk_classifier.py, ai_cost_economics.py
   frameworks: model-buildvsbuy, ai-risk-governance, ai-economics, ai-team-org
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Chief AI Officer Advisor

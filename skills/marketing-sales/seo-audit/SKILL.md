@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "seo-audit"
 description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SEO Audit

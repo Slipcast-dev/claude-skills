@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: skill-security-auditor
-description: "Audit a Claude/Agent SKILL.md (or any AI skill / system prompt) for safety before installing or merging it. Use when asked to review a skill for security, check a prompt for injection, vet a community skill, or assess whether an instruction file is safe to run. Produces a risk-rated report of findings (prompt injection, data exfiltration, code execution, secrets, hidden text) with severity, evidence, and a clear install / don't-install recommendation."
+description: "Audit a Claude/Agent SKILL.md (or any AI skill / system prompt) for safety before installing or merging it."
 ---
 
 # Skill Security Auditor

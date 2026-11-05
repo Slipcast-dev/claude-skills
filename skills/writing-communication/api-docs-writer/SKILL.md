@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: api-docs-writer
-description: "Write clear, developer-facing API documentation. Use when asked to document an API endpoint, write API reference docs, create a developer guide, or turn a raw spec/Postman collection into documentation. Produces endpoint documentation with descriptions, parameters, request/response examples, and error codes."
+description: "Write clear, developer-facing API documentation."
 ---
 
 # API Docs Writer Skill

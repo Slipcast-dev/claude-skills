@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "qms-audit-expert"
 description: ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use when planning internal audits, executing audits, classifying findings, preparing for external audits, or managing an audit program.
 metadata:
@@ -14,6 +13,7 @@ metadata:
     - audit finding
     - external audit prep
     - audit schedule
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # QMS Audit Expert

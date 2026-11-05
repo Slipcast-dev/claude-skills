@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: cs-escalation-brief
 description: "Write a structured escalation brief for an at-risk customer account. Use when an account has escalated, when a customer is threatening churn, when a P1 customer issue needs executive attention, or when preparing an internal save play. Produces a crisp escalation brief with account context, timeline, root cause, business impact, and a clear resolution plan."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Customer Escalation Brief Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: medication-therapy-review
 description: "Structure a pharmacist's medication therapy review so it finds the problems worth escalating and documents them in a form a prescriber will act on. Use when asked to conduct a medication review, run an MTM or MUR, deprescribing review, or polypharmacy assessment, or to prepare a review for a patient on many medicines. Produces the medication list reconciled, the drug-therapy-problem list classified and prioritised, the patient-goal alignment, the prescriber recommendations with rationale, and the follow-up plan. A documentation and reasoning framework for a licensed pharmacist; it makes no clinical determination and recommends no specific drug or dose."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Medication Therapy Review

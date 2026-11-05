@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: email-campaign
 description: "Write and sequence multi-email nurture or launch campaigns. Use when asked for an email sequence, drip campaign, onboarding emails, product launch emails, or nurture flow. Produces subject lines, preview text, full email body, and send-timing recommendations for each email in the sequence."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Email Campaign Skill

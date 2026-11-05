@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "roadmap-planning"
 description: "Build a multi-quarter roadmap from a backlog of ideas, requests, and ongoing initiatives. Use this skill when planning the next quarter, sequencing dependent work, balancing build vs improve vs maintain, or making the case for what NOT to do. Triggers on roadmap, quarterly planning, what should we build next, sequencing, prioritization, OKR planning, capacity planning, what's on the roadmap, plan the year, what to ship next quarter. Also triggers when stakeholders are pulling in different directions and the team needs a defensible plan."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Roadmap Planning

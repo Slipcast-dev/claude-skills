@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "board-meeting"
 description: "Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /c-level-agents:boardroom, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   domain: board-protocol
   updated: 2026-03-05
   frameworks: 6-phase-board, two-layer-memory, independent-contributions
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Board Meeting Protocol

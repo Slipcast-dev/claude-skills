@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: disaster-recovery-plan
 description: "Write a disaster recovery plan for a service or system — covering RPO/RTO targets, failure scenario runbooks, backup and restore procedures, DR testing cadence, and communication templates. Use when asked to write a DR plan, document failover procedures, create recovery runbooks, define RTO/RPO targets, or prepare for a disaster recovery game day. Produces a full DR document with per-scenario recovery runbooks, backup validation procedures, testing schedule, and communication templates."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Disaster Recovery Plan Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: legal-brief
 description: "Draft a structured legal brief, case summary, or legal argument outline. Use when asked to write a legal brief, case note, legal memo, argument outline, or position paper. Produces a structured document using IRAC format (Issue, Rule, Application, Conclusion)."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Legal Brief Skill

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: end-of-day-report
 description: "Produce an end-of-day report an unattended agent can send honestly: what shipped (verified), what is drafted or waiting, what is blocked and on whom, and tomorrow's first action. Use when asked for an end-of-day report, what did my agent do today, wrap up my day, or a daily close-out summary. Produces a six-line close-out in the shared status vocabulary, every claim cited, with unverified items marked unverified rather than assumed done."
 duet:
@@ -8,6 +7,7 @@ duet:
   default_action: draft
   requires_approval: send
   cadence: daily
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # End Of Day Report Skill

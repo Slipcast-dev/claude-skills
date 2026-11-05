@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "after-action-report"
 description: "Run a structured after-action review (postmortem, retrospective) on a launch, incident, or completed project to capture timeline, root cause analysis, contributing factors, and actionable lessons. Use this skill whenever the user wants to run a postmortem, retrospective, AAR, or after-action review on any past event. Triggers on after-action report, AAR, postmortem, retrospective, retro, post-incident review, what went well what didn't, lessons learned, blameless postmortem, root cause analysis, RCA, five whys. Also triggers when the user has just shipped something or just resolved an incident and wants to capture learnings."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # After-Action Report

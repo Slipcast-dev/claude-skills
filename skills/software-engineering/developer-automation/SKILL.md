@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: developer-automation
 description: Разрабатывать и отлаживать ботов, парсеры, фоновые задачи и автоматизацию macOS/Windows. Дополняет основной инженерный процесс правилами состояния, повторов, завершения и платформенных интеграций; не является общим маршрутизатором веб-разработки.
 metadata:
   short-description: Боты, парсеры и автоматизация ОС
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Universal development and automation

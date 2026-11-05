@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "gdpr-audit-prep"
 description: "/compliance-os:gdpr-audit-prep [scope] — GDPR audit 6-question Article-cited forcing interrogation. Use before annual internal GDPR review, post-breach internal audit, DPA investigation readiness, or acquisition due diligence."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /compliance-os:gdpr-audit-prep — GDPR DPO Forcing Questions

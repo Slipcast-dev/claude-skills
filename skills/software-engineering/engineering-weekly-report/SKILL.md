@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: engineering-weekly-report
 description: "Write a weekly engineering status report for a team, service, or initiative. Use when asked to write a team update, weekly engineering report, sprint status email, or standing team communication to stakeholders. Produces a concise, scannable weekly report covering shipping progress, metrics, decisions, blockers, and next-week priorities."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Engineering Weekly Report

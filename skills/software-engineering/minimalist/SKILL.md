@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "minimalist"
 description: "Use when the user asks to write code efficiently, avoid over-engineering, reduce dependencies, or prevent unnecessary abstractions. Enforces a strict efficiency ladder: YAGNI, reuse, stdlib, native platform, existing deps — before writing any new code."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Minimalist

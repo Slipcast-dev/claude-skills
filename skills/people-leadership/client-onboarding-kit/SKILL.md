@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: client-onboarding-kit
 description: "Build a smooth client-onboarding process that starts projects on the right foot — clear expectations, the info you need, and a professional first impression that prevents problems later. Use when asked to onboard a new client, create an onboarding process, kick off a client project, or client welcome packet. Produces a welcome and kickoff flow, the intake you need to start, expectation-setting on scope/comms/timeline/payment, a kickoff-meeting agenda, and the templates to reuse — so onboarding is consistent, not improvised, and prevents the scope and communication problems that sink projects."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Client-Onboarding Kit

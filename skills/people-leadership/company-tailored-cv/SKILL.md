@@ -1,8 +1,8 @@
 ---
-disable-model-invocation: true
 name: company-tailored-cv
 description: "Produce a CV shaped for one target company and role: its applicant tracking system, the country's conventions, the sector's norms, its published values and the job ad, with every choice explained. Use when asked to write my CV for a specific company, tailor my CV to Google, Amazon or any named employer, make my CV fit this company's format, or turn my experience into a CV for this job. Produces the tailored CV, a short format rationale citing public sources with dates, and a list of claims the person must be ready to defend. Never invents experience or insider knowledge."
 version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Company-Tailored CV

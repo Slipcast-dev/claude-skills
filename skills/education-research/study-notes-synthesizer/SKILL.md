@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: study-notes-synthesizer
 description: "Turn lecture notes, slides, and readings into one exam-ready study guide — synthesis, not summary. Use when asked to make a study guide, combine my notes, prep me for the exam, or organize this course material. Produces a structured guide: core concepts with plain-language explanations, connections between topics, worked examples where the subject has them, self-test questions, and an honest list of gaps in the source notes."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Study Notes Synthesizer Skill

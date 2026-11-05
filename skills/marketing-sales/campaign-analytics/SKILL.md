@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "campaign-analytics"
 description: Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-02-06
   python-tools: attribution_analyzer.py, funnel_analyzer.py, campaign_roi_calculator.py
   tech-stack: marketing-analytics, attribution-modeling
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Campaign Analytics

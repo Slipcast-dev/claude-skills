@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: press-release
 description: "Write a professional press release for any announcement. Use when asked to write a press release, media announcement, news release, or press statement. Produces a structured press release with headline, dateline, body, boilerplate, and media contact — ready to send to journalists."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Press Release Skill

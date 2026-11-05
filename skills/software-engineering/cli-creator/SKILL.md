@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: cli-creator
-description: Build a composable CLI for Claude from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Claude to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.
+description: "Build a composable CLI for Claude from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script."
 ---
 
 # CLI Creator

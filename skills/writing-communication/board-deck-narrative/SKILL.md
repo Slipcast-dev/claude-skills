@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: board-deck-narrative
 description: "Build the storyline and slide structure for a board presentation. Use when asked to create a board deck, board presentation narrative, board meeting slides, or quarterly board update. Produces a complete slide-by-slide structure with narrative beats, talking points, and slide content guidance."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Board Deck Narrative Skill

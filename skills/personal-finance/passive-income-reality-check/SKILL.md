@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: passive-income-reality-check
 description: "Cut through passive-income hype to what's actually realistic for you — the real effort, capital, and risk behind each option, and which (if any) fit your situation. Use when asked how do I make passive income, is passive income real, best passive income ideas, or help me build income streams. Produces an honest teardown of the popular passive-income options (what they really require, how 'passive' they actually are, typical returns and risks), a match to your capital/skills/time, the scams and get-rich-quick traps to avoid, and a grounded next step — replacing the fantasy with a realistic path. Not financial advice."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Passive-Income Reality Check

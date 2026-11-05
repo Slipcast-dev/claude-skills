@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: deepread
 description: "Use when the user asks to deeply read a book, article, PDF, or document set; extract claims and evidence; build a knowledge map; or learn through Feynman explanation and recall. Covers quick, deep, map, Feynman, and whole-book reading modes."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # DeepRead

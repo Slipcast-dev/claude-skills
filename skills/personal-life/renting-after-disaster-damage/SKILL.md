@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: renting-after-disaster-damage
 description: "Know your position as a tenant when a fire, flood, storm or other disaster damages your rented home: whether rent is still due, who repairs what, what your landlord's and your own insurance cover, moving out or ending the lease, and getting your deposit back. Use when someone says 'our rented flat flooded, do I still pay rent', 'the landlord won't fix the storm damage', 'can I end my lease after the fire', or 'who pays for my damaged belongings'. Produces a first-week plan, a rights checklist to confirm locally, messages to the landlord, and a decision on staying or leaving."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Renting After Disaster Damage

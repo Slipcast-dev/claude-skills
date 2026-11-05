@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "report"
 description: >-
   Generate test report. Use when user says "test report", "results summary",
   "test status", "show results", "test dashboard", or "how did tests go".
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Smart Test Reporting

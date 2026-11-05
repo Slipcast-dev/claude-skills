@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: onboarding-plan
 description: "Create a structured 30/60/90-day onboarding plan for any new hire. Use when asked to write an onboarding plan, new hire plan, 30-60-90 day plan, or first 90 days roadmap. Produces a week-by-week plan with milestones, meetings, learning goals, and success criteria."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Onboarding Plan Skill

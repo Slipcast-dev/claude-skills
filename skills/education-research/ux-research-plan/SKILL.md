@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: ux-research-plan
 description: "Create a structured UX research plan for any product question or feature. Use when asked to write a research plan, design a user study, create a discussion guide, write screener questions, or plan usability testing. Produces a full research plan with objectives, methodology, screener, discussion guide, and synthesis framework."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # UX Research Plan Skill

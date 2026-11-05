@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: audited-boundary-check
 description: "Use when asked to check whether a figure is audited, which headline numbers sit outside the audited accounts, what 'adjusted' or 'underlying' means in this report, or who is vouching for the numbers in the highlights. For every headline figure in the highlights, chairman's statement and CEO review of an uploaded annual report, states whether it sits inside or outside the audited statements and what was added or removed versus the nearest audited number. Produces a boundary table, the list of figures outside the boundary, and a plain-English summary of who is vouching for what. Educational, not financial advice."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Audited Boundary Check Skill

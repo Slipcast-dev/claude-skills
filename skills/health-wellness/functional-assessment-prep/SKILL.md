@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: functional-assessment-prep
 description: "Prepare for a disability or illness benefit assessment (a functional or work capability assessment, a medical review, a disability evaluation interview): describe how the condition affects daily life on a bad day, gather evidence, and know what to bring and say. Use when someone says 'I have a benefit assessment next week', 'how do I prepare for my disability assessment', 'they say I can do more than I can', or 'what should I say at my medical review'. Produces a day-in-my-life description, an evidence list, answers to common questions, and a plan for the day and afterwards."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Functional Assessment Prep

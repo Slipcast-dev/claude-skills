@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: figma-design-review
 description: "Runs a structured PM design review against product requirements. Use when asked to review a Figma design, check a design against requirements, or assess whether a design meets the product spec. Produces a requirements coverage check, UX concerns, open questions, and an explicit approval status — approved, approved with conditions, or not approved."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Figma Design Review Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: family-emergency-plan
 description: "Build a family emergency plan — contacts, meeting points, key documents, and 'if something happens to me' info — so your household isn't scrambling in a crisis. Use when asked to make a family emergency plan, be prepared for an emergency, what if something happens to me, or organize our important info. Produces a household plan covering communication and meeting points, an emergency contact/ICE setup, a key-documents and info location list, a basic go-bag/supplies checklist, and a 'someone needs to find this' plan — tailored to your household and likely local risks."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Family Emergency Plan

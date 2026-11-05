@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: give-hard-feedback-kindly
 description: "Give someone difficult feedback — a report, a peer, a friend — so it actually lands and helps, without crushing them or dodging the point. Use when asked how do I give hard feedback, tell someone something difficult, address a problem with someone, or have a tough conversation about their [work/behavior]. Produces a read on what you actually need to say (the specific behavior and its impact, not a vague vibe), a structure that's direct and kind at once, the exact opening and words, how to invite their side and land on a path forward, and the traps (sandwiching it away, going vague, making it about character)."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Give Hard Feedback Kindly

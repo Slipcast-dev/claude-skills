@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-launch
 description: >-
   Writes the launch for an app clone: the landing page built on the
@@ -9,6 +8,7 @@ description: >-
   "landing page", "pricing", "how much should I charge", "App Store
   listing", "store screenshots", "launch plan", "Product Hunt", or after
   /replica-brand.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-launch

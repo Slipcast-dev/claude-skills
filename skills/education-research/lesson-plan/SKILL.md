@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: lesson-plan
 description: "Build a complete, standards-aligned lesson plan with clear objectives, a timed activity sequence, differentiation, and assessment. Use when asked to write a lesson plan, plan a class or lesson, design a teaching session, or structure instruction for a topic. Produces a ready-to-teach plan with measurable objectives, a minute-by-minute flow, materials, checks for understanding, and differentiation for varied learners."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Lesson Plan Skill

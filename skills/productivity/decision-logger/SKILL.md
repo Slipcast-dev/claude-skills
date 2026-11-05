@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "decision-logger"
 description: "Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /decision-logger decisions, or checking overdue action items with /decision-logger review. Invoked automatically by the board-meeting skill after Phase 5 founder approval."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   domain: decision-memory
   updated: 2026-03-05
   python-tools: scripts/decision_tracker.py
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Decision Logger

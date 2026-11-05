@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "agile-product-owner"
 description: Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use when writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing the backlog.
 metadata:
@@ -20,6 +19,7 @@ metadata:
     - user story template
     - sprint capacity
     - velocity tracking
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Agile Product Owner

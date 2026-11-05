@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "api-test-suite-builder"
 description: "Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # API Test Suite Builder

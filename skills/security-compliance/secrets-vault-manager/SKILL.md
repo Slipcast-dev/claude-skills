@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "secrets-vault-manager"
 description: "Use when the user asks to set up secret management infrastructure, integrate HashiCorp Vault, configure cloud secret stores (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager), implement secret rotation, or audit secret access patterns."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Secrets Vault Manager

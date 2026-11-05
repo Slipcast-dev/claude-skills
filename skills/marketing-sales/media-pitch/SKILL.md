@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: media-pitch
 description: "Write a media pitch or press outreach email for any story or announcement. Use when asked to write a media pitch, journalist outreach email, press pitch, or story angle for PR. Produces a concise pitch with a compelling news angle, journalist-specific hook, and clear call to action."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Media Pitch Skill

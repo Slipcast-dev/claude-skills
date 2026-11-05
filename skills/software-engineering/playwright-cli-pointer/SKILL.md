@@ -1,8 +1,8 @@
 ---
-disable-model-invocation: true
 name: playwright-cli-pointer
 description: "Point to Microsoft's playwright-cli and its skill, and explain when to use it. Use when asked how to install playwright-cli, how to verify a page in a real browser at mobile and desktop widths, or what handles the verification stage of the design pipeline. Produces the install commands, the Node prerequisite, a screenshot routine for both widths, an optional interface guidelines audit step, and credit to the author with a link. Contains no upstream skill content."
 version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Playwright CLI (pointer)

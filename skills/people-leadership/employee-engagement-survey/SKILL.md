@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: employee-engagement-survey
 description: "Design an employee engagement survey and analyse results. Use when asked to create an employee survey, engagement questionnaire, pulse survey, or eNPS survey. Also use when asked to analyse survey results. Produces a complete survey with questions, rating scales, and an analysis framework."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Employee Engagement Survey Skill

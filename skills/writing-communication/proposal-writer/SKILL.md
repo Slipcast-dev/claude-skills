@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: proposal-writer
 description: "Write a structured sales proposal or commercial proposal for any deal. Use when asked to write a proposal, sales proposal, commercial proposal, statement of work, or quote document. Produces a complete proposal with problem statement, solution, investment, and next steps."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Proposal Writer Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: pharmacy-counselling-script
 description: "Write the counselling a patient will actually follow when collecting a new or changed medicine — what it is for, how to take it, what to expect, and the one thing that would make them stop. Use when asked to write patient counselling, counsel on a new prescription, explain a medicine to a patient, or improve adherence at the counter. Produces the counselling script in plain language, the teach-back questions, the red-flag advice, the adherence anticipation, and the documentation line. A communication framework for a licensed pharmacist; it makes no clinical determination and substitutes for no product-specific information."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Pharmacy Counselling Script

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: announcement-card
 description: "Write a short, punchy announcement designed to be shared as an image or social card. Use when asked to announce a launch, milestone, feature, hire, funding, or win — something to post on LinkedIn/X/Slack. Produces a tight, visually-structured announcement (headline, one-liner, 2-3 proof points, CTA) that looks great exported as a PNG card from the playground."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Announcement Card Skill

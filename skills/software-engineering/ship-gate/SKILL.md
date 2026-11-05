@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: ship-gate
 description: >
   Pre-production audit that scans a codebase for security, database,
@@ -12,6 +11,7 @@ license: MIT
 metadata:
   author: Rajaraman Arumugam
   version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Ship Gate

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: change-management-plan
 description: "Create a structured change management plan for any organisational change. Use when asked to write a change management plan, manage a change initiative, plan a system rollout, or lead an organisational transformation. Produces a plan covering stakeholder analysis, impact assessment, communication strategy, and resistance management."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Change Management Plan Skill

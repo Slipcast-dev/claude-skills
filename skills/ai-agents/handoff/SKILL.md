@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: handoff
 description: "Compact the current conversation into a handoff document for another agent to pick up, referencing existing artifacts (PRDs, plans, ADRs, issues, commits, diffs) by path or URL instead of duplicating them. Use whenever the user wants to hand off to a fresh agent, is ending a session mid-task, asks for a handoff doc or a summary of state, decisions and next steps for the next session, or starts a new session that picks up prior work."
 argument-hint: "What will the next session be used for?"
@@ -10,6 +9,7 @@ metadata:
   original_license: MIT
   voice: "Matt Pocock — no-duplication, reference-existing-artifacts, tailored to next-session focus"
   version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Handoff

@@ -1,8 +1,8 @@
 ---
-disable-model-invocation: true
 name: ats-detector
 description: "Work out which applicant tracking system a job uses from its application link, and give the formatting rules that system parses safely. Use when asked which ATS does this company use, will my CV get through the ATS, is my CV ATS friendly, or how should I format for Workday, Greenhouse, Lever or Taleo. Produces the detected system with the evidence, a parsing-safe formatting checklist, the file type to upload, and a check of a supplied CV against the rules."
 version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # ATS Detector

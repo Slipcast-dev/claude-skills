@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: data-pipeline-spec
-description: "Design an ETL/ELT data pipeline specification. Use when asked to design a data pipeline, spec an ETL or ELT process, document a data ingestion workflow, or plan a data integration. Produces a complete pipeline spec with sources, transforms, destinations, SLAs, error handling, and data quality rules."
+description: "Design an ETL/ELT data pipeline specification."
 ---
 
 # Data Pipeline Spec Skill

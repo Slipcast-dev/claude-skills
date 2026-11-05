@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: cohort-analysis
 description: "Structure a cohort analysis for retention, LTV, or behavioural patterns. Use when asked to run a cohort analysis, analyse retention by cohort, segment users by behaviour over time, or calculate lifetime value by acquisition period. Produces a complete cohort analysis framework with methodology, cohort definitions, retention curves, and prioritised interventions."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Cohort Analysis Skill

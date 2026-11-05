@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-entrepreneur
 description: >-
   Researches the app being cloned and reads what its real users say in public
@@ -10,6 +9,7 @@ description: >-
   Use when the user says "what do people hate about X", "read the reviews",
   "how do I make mine better", "find the gap", "what features are missing",
   "how do I position this", "make it sellable", or after /replica-diff.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-entrepreneur

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: drug-interaction-intervention
 description: "Document a pharmacist's clinical intervention — the interaction or error spotted, what was done, what the prescriber decided, and the outcome — so the record shows the catch and the care that followed. Use when asked to document a clinical intervention, record a prescriber call about an interaction, log a near-miss, or build an intervention record for audit or remuneration. Produces the intervention record with severity and evidence, the prescriber-call script, the outcome and follow-up, and the aggregate reporting fields. A documentation framework for a licensed pharmacist; every interaction and severity judgement must be verified against current references."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Clinical Intervention Record

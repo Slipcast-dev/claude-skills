@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "hub-run"
 description: "One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation. Use when the user runs /hub:hub-run or asks to execute a full AgentHub competition end-to-end."
 metadata:
   command: /hub:hub-run
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /hub:hub-run — One-Shot Lifecycle

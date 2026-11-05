@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: metrics-framework
 description: "Build a metrics framework for any product, team, or business. Use when asked for a metrics tree, KPI framework, North Star metric, AARRR funnel, HEART framework, or OKR metrics. Produces a structured metrics hierarchy from North Star down to leading indicators, with measurement guidance."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Metrics Framework Skill

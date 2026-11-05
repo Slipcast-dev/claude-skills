@@ -1,10 +1,10 @@
 ---
-disable-model-invocation: true
 name: "fix"
 description: >-
   Fix failing or flaky Playwright tests. Use when user says "fix test",
   "flaky test", "test failing", "debug test", "test broken", "test passes
   sometimes", or "intermittent failure".
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Fix Failing or Flaky Tests

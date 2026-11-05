@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: treatment-plan-presentation
 description: "Present a dental treatment plan the patient actually understands and accepts — sequenced by clinical priority, costed with their coverage applied, and explained in the order that answers what-is-wrong before what-it-costs. Use when asked to present a treatment plan, improve case acceptance, explain treatment to a patient, or handle a patient who says they want to think about it. Produces the phased plan, the plain-language explanation per phase, the cost and coverage breakdown, the consequences-of-delay framing, and responses to the four common objections. Clinical decisions remain the treating clinician's; this shapes the conversation, not the diagnosis."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Dental Treatment Plan Presentation

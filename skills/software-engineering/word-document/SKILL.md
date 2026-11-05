@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: word-document
-description: "Build a real, formatted Word (.docx) document — headings, styles, tables, TOC-ready. Use when asked to produce a Word doc, a .docx, a formatted report/contract/proposal/letter as an actual file (not markdown). Produces an actual .docx via a generated python-docx script with proper heading styles, body text, tables, and page structure. Requires a code-execution environment (Claude Code, the API code tool, or Claude.ai)."
+description: "Build a real, formatted Word (.docx) document — headings, styles, tables, TOC-ready."
 ---
 
 # Word Document Skill

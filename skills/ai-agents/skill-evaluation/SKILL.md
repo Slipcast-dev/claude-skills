@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: skill-evaluation
 description: Проверять выбор и наблюдаемое поведение навыков на реалистичных положительных, отрицательных и аварийных сценариях. Использовать после существенного изменения навыка или для регрессии; текстовый аудит выполняет prompt-skill-auditor.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Проверка навыков

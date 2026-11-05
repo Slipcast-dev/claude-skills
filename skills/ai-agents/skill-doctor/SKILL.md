@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: skill-doctor
 description: Use when the user wants their agent setup graded from real conversation history, asks which installed skills are actually working, or wants evidence-backed skill edits — scores recent local Claude Code / Codex sessions against efficiency and code-quality rubrics, then drafts skill changes gated by a deterministic aggregator and renders one local shareable report.
 argument-hint: "[optional: --repo PATH, --days N, or a question about the setup]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Rebuild of warpdotdev/common-skills skill-doctor (MIT): harvest → LLM-judges-with-rubrics → deterministic aggregation gate → self-contained HTML report"
   distinct_from: "skillopt-sleep (nightly automated replay loop with adopt gate; this is one interactive graded pass); write-a-skill (authors a skill from expertise; this improves skills from observed session evidence); self-eval (grades this session's own work; this grades a window of past sessions)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # skill-doctor — grade the agent setup from real sessions

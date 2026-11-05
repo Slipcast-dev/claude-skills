@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: deep-learning-book
 description: "Study companion and working knowledge base for the Deep Learning textbook by Goodfellow, Bengio & Courville (MIT Press, 2016), read free at deeplearningbook.org. Indexes all 20 chapters, carries a 2016-to-2026 delta layer naming what the book got right, what was superseded (transformers, AdamW, diffusion, double descent) and what still holds, and ships four deterministic tools: a prerequisite-aware reading-path planner, a training-failure diagnostic, a capacity-and-regularization planner, and a parameter/FLOP/activation-memory calculator. Use when studying or teaching this book, planning a route through it, deciding whether a chapter's advice is still current, or translating its math into a training decision. It points at the official chapters — it never reproduces them."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-08-25
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Deep Learning — Study Companion

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "agent-protocol"
 description: "Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   domain: agent-orchestration
   updated: 2026-03-05
   frameworks: invocation-patterns
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Inter-Agent Protocol

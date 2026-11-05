@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: code-to-prd
 description: "Reverse-engineer any codebase into a complete Product Requirements Document (PRD). Analyzes routes, components, state management, API integrations, and user interactions to produce business-readable documentation detailed enough for engineers or AI agents to fully reconstruct every page and endpoint. Works with frontend frameworks (React, Vue, Angular, Svelte, Next.js, Nuxt), backend frameworks (NestJS, Django, Express, FastAPI), and fullstack applications. Use when users mention: generate PRD, reverse-engineer requirements, code to documentation, extract product specs from code, document page logic, analyze page fields and interactions, create a functional inventory, write requirements from an existing codebase, document API endpoints, or analyze backend routes."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   dependencies: none
   author: Alireza Rezvani
   version: 2.1.2
+disable-model-invocation: true  # skill-optimizer
 ---
 
 ## Name

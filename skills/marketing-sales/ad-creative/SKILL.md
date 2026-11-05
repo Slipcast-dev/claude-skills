@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "ad-creative"
 description: "When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' This is pure creative production — distinct from paid-ads (campaign strategy). Use ad-creative when you need the copy, not the campaign plan."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Ad Creative

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "gc-review"
 description: "/c-level-agents:gc-review [plan] — General Counsel interrogation of contracts, IP, regulatory, term sheets, and employment-law surface. Use when reviewing a term sheet before signing, redlining a customer MSA, or checking IP assignment and regulatory exposure on a new product."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /c-level-agents:gc-review — General Counsel Forcing Questions

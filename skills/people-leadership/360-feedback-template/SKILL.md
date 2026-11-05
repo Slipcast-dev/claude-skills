@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: 360-feedback-template
 description: "Design a 360-degree feedback survey or write a structured 360 feedback report. Use when asked to build a 360 feedback process, write 360 feedback for a colleague, design a feedback survey, or produce a feedback report. Produces either a complete survey instrument with rating scales and open-ended questions, or a structured narrative feedback report with themes, strengths, and development areas."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # 360-Degree Feedback Template Skill

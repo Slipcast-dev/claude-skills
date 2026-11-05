@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: first-100k-plan
 description: "Build a realistic plan to reach your first major savings/investing milestone — the hardest one — by focusing on the levers that actually move it: income, savings rate, and time. Use when asked how do I save my first 100k, plan to build wealth, reach a savings milestone, or how do I actually get ahead financially. Produces an honest read on your three levers (earn more, spend less, invest consistently), which one has the most room for you, a milestone timeline based on real numbers, the compounding effect once you're rolling, and the traps that stall people — educational, not financial advice."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # First 100k Plan

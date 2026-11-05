@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-build
 description: >-
   Rebuilds an app screen by screen from the recon map: app shell first, then
@@ -8,6 +7,7 @@ description: >-
   the original's code, assets or copy. Use when the user says "build the
   clone", "build screen S07", "start building", "rebuild this screen",
   "implement the booking page", or after /replica-design.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-build

@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "ar-status"
 description: "Show experiment dashboard with results, active loops, and progress. Use when the user runs /ar:ar-status or asks how an autoresearch experiment is going."
 metadata:
   command: /ar:ar-status
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /ar:ar-status — Experiment Dashboard

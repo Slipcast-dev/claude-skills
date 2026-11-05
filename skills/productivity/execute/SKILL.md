@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "execute"
 description: "/c-level-agents:execute [decision] — Generate a 90-day execution plan with weekly milestones, DRIs, and check-in cadence from an approved decision. Use when a logged decision needs to become an operating plan — e.g. turning an approved market-entry call into weekly milestones with DRIs."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /c-level-agents:execute — 90-Day Execution Plan

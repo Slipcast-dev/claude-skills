@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "creative-brief-selector"
 description: "Produce a creative brief grounded in live reference sites and deliberately distinct from existing demos, for any new brand build. Composes with brand-archetype-system and creative-direction. Use this skill at the start of any brand or microsite build when the result needs to land in a specific aesthetic position and not drift into a default house style. Triggers on creative brief, design brief, build brief, brand direction, where should this brand sit, what should this site look like, reference sites for, archetype for, distinct from our other brands, divergence from prior, not the same as. Also triggers when prior builds have come out as siblings and a systematic divergence approach is needed."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Creative Brief Selector

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: blended-family-plan
 description: "Plan the merging of two families thoughtfully — roles, rules, routines, and relationships — so a blended household starts on the right foot instead of a collision. Use when asked to help blend our families, moving in with my partner and their kids, step-parenting help, or how to merge two households. Produces a read on the situation and its sensitivities, an approach to step-parent roles and discipline, a plan to align house rules and routines across homes, ways to build relationships at each child's pace, and how to handle exes and loyalty binds — realistic, not idealized. Not therapy."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Blended-Family Plan

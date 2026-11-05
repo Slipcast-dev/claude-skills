@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "chief-customer-officer-advisor"
 description: "Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math), and CS team org evolution (CS vs Support vs AM distinctions). Use when designing retention strategy, segmenting customers for differential investment, sizing CS team, or sequencing CS hires. Strategic only — does not duplicate engineering/business-growth tactical skills."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-05-13
   python-tools: retention_decomposition_analyzer.py, customer_segmentation_designer.py, cs_coverage_calculator.py
   frameworks: retention-decomposition, customer-segmentation, cs-coverage-model, cs-team-org
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Chief Customer Officer Advisor

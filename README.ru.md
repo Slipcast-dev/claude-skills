@@ -24,7 +24,7 @@
 <!-- INDEX:START -->
 | Категория | Навыки |
 |---|---:|
-| [ИИ и агенты](skills/ai-agents/) | 172 |
+| [ИИ и агенты](skills/ai-agents/) | 174 |
 | [Разработка ПО](skills/software-engineering/) | 175 |
 | [Безопасность и соответствие требованиям](skills/security-compliance/) | 61 |
 | [Данные и аналитика](skills/data-analytics/) | 80 |
@@ -40,7 +40,7 @@
 | [Личные финансы](skills/personal-finance/) | 63 |
 | [Здоровье и благополучие](skills/health-wellness/) | 27 |
 | [Дом, семья и образ жизни](skills/personal-life/) | 138 |
-| **Итого** | **1814** |
+| **Итого** | **1816** |
 <!-- INDEX:END -->
 
 ## Установка
@@ -71,7 +71,9 @@ mkdir -p ~/.claude/skills
 cp -R skills/thinking-decisions/premortem-assassin ~/.claude/skills/
 ```
 
-По умолчанию навыки запускаются вручную, например командой `/premortem-assassin`. За это отвечает параметр `disable-model-invocation: true` в заголовке `SKILL.md`.
+У 1 706 навыков в заголовке `SKILL.md` задано `disable-model-invocation: true`: они запускаются явно, например командой `/premortem-assassin`. У остальных 110 навыков этот параметр отсутствует, поэтому Claude может выбирать их автоматически. Перед установкой проверьте заголовок нужного навыка.
+
+Для `driver-mas` нужны отдельно настроенные MAS CLI (`~/.claude/mas/bin/mas`) и определения агентов. Для `skill-finder` нужен отдельно поддерживаемый индекс `~/.claude/skill-index.tsv`. Эти зависимости не входят в коллекцию и не создаются сценарием установки.
 
 ## Структура и формат
 

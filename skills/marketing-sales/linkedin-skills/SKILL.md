@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: linkedin-skills
 description: Use when someone wants to grow an organic LinkedIn presence — a content strategy for a career change or consulting or thought leadership, a rewritten profile or headline, post drafts and hooks, a posting cadence or newsletter plan, connection notes and outreach, a commenting strategy, repurposing an article or talk into posts, or a read on why their reach dropped. Triggers on "grow my LinkedIn", "fix my headline", "write a LinkedIn post", "what should I post about", "LinkedIn strategy", "connection request", "my reach dropped". Forks context to route to one of five sub-skills, and refuses automation, scraping, pods, and bulk DMs before any drafting starts.
 context: fork
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-08-25
   build_pattern: "Domain orchestrator — deterministic lane router + policy gate, five managed sub-skills"
   distinct_from: "marketing-skill/x-twitter-growth (X/Twitter-specific); marketing-skill/social-content (multi-platform calendars); marketing-skill/social-media-analyzer (cross-platform reporting); productivity/andreessen (venture judgement, not audience building)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # LinkedIn — Organic Presence Orchestrator

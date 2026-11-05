@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: ai-code-review
 description: "Review AI-authored code for its characteristic failure modes — plausible-but-wrong logic, hallucinated APIs, over-engineering, dead scaffolding, and silent security shortcuts. Use when reviewing an AI-generated or heavily AI-assisted PR, when AI-written code keeps shipping subtle bugs, or when setting review standards for a team using coding agents. Produces a focused review with AI-specific findings, verification steps per risk class, and a team checklist for AI-authored changes. For general PR review use code-review-checklist — this skill covers what that one assumes a human wouldn't do."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # AI Code Review Skill

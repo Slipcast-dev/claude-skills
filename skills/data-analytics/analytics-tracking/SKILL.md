@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "analytics-tracking"
 description: "Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keywords: GA4 setup, Google Tag Manager, GTM, event tracking, analytics implementation, conversion tracking, tracking plan, event taxonomy, custom dimensions, UTM tracking, analytics audit, missing events, tracking broken. NOT for analyzing marketing campaign data — use campaign-analytics for that. NOT for BI dashboards — use product-analytics for in-product event analysis."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Analytics Tracking

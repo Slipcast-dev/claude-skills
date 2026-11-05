@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: human-gate
 description: "Runs the human-verification lane of an agent loop, and proves review happened before work is called done. Builds a single-file HTML review page, collects batched feedback as a structured artifact instead of chat prose, and runs a gate that refuses to close while a BLOCKER is open, the reviewer is unnamed, or nobody has reviewed at all. Use when a plan, spec, RFC, report, landing page, migration, or any irreversible action needs human sign-off before shipping, or on requests such as 'get sign-off', 'have someone check this', 'hold until reviewed', 'needs approval first'. NOT for making AI text sound human (use content-humanizer or behuman). NOT for reviewing code diffs (use md-review or code-reviewer)."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-08-09
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Human Gate

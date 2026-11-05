@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "coo-advisor"
 description: "Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, process improvement, OKRs, scaling, operational efficiency, or execution."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-03-05
   python-tools: ops_efficiency_analyzer.py, okr_tracker.py
   frameworks: scaling-playbook, ops-cadence, process-frameworks
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # COO Advisor

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "board-deck-builder"
 description: "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   domain: board-governance
   updated: 2026-03-05
   frameworks: deck-frameworks, board-deck-template
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Board Deck Builder

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: chart-data-extractor
 description: "Extract pixel-level data from an image of a chart or graph and produce a structured data table. Use when asked to extract data from a chart image, transcribe numbers from a graph, digitise a chart, or turn a screenshot of data into a table. Produces a structured table with extracted values, confidence levels, and a reconstructed chart source. Works best with current frontier Claude models (high-resolution vision) for reliable chart data extraction."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Chart Data Extractor Skill

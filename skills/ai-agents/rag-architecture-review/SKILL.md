@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: rag-architecture-review
 description: "Review an existing Retrieval-Augmented Generation system and find why it underperforms. Use when asked to review or audit a RAG pipeline, diagnose wrong/ungrounded answers from a 'chat with your docs' feature, or improve an already-built knowledge assistant. Produces a staged review — ingestion, chunking, retrieval, reranking, generation, evaluation — with prioritised findings, root causes, and concrete fixes."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # RAG Architecture Review Skill

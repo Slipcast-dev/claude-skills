@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "feature-flagging"
 description: "Operational discipline for feature flags as production infrastructure. Flag types, naming, targeting rules, rollout strategy, lifecycle, governance, stale flag management, and the technical debt patterns that bite teams who weren't deliberate about it."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Feature Flagging

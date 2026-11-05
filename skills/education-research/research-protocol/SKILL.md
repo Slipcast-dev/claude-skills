@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: research-protocol
 description: "Write a structured research protocol or study design document. Use when asked to write a research protocol, study protocol, research plan, methodology section, or research proposal. Produces a complete protocol with objectives, methodology, ethical considerations, and analysis plan."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Research Protocol Skill

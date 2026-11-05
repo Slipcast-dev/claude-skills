@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-deploy
 description: >-
   Ships an app clone live on the user's own domain: a preflight gate (tests
@@ -9,6 +8,7 @@ description: >-
   mobile builds to TestFlight and Play. Use when the user says "deploy it",
   "ship it", "put it live", "connect my domain", "go to production",
   "publish the app", or after /replica-launch.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-deploy

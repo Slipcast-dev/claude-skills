@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: tech-radar
 description: "Build a technology radar for an engineering team, categorizing technologies into Adopt/Trial/Assess/Hold quadrants following the ThoughtWorks Tech Radar format. Use when asked to create a tech radar, evaluate the team's technology landscape, categorize tools and frameworks, or establish a technology strategy. Produces a full tech radar with quadrant tables, individual blip rationales, a decision trail, and a maintenance process guide."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Tech Radar

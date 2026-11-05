@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: performance-review
 description: "Write structured, balanced performance reviews from bullet-point inputs. Use when asked to write a performance review, self-assessment, peer review, 360 feedback, or manager evaluation. Produces a complete, fair, professionally written review covering achievements, areas for growth, and development goals."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Performance Review Skill

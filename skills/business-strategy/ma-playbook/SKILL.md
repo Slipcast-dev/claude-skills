@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "ma-playbook"
 description: "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation."
 license: MIT
@@ -9,6 +8,7 @@ metadata:
   category: c-level
   domain: ma-strategy
   updated: 2026-03-05
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # M&A Playbook

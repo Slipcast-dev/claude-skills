@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-recon
 description: >-
   Reverse-engineers any app into a recon map: screen inventory, user flows,
@@ -9,6 +8,7 @@ description: >-
   "reverse engineer X", "how does X work", "map out X", "what screens does X
   have", "I want to build my own version of X", "copy this app", or pastes an
   app's URL or App Store link and wants to rebuild it.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-recon

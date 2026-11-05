@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: project-status-report
 description: "Write a structured project status report for any project. Use when asked to write a project update, status report, RAG report, project dashboard narrative, or weekly project communication. Produces a clear status report with RAG ratings, milestone progress, risks, and decisions needed."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Project Status Report Skill

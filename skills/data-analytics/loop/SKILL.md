@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "loop"
 description: "Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling. Use when the user runs /ar:loop or asks to run an autoresearch experiment continuously on a schedule."
 metadata:
   command: /ar:loop
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /ar:loop — Autonomous Experiment Loop

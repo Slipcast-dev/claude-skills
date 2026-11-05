@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "pillar-content-architecture"
 description: "How to design a content hub that earns topical authority. Pillar topic selection, cluster planning, internal linking architecture, URL structure, pillar and cluster page anatomy, topical authority signals for SEO and AEO/GEO, and the maintenance discipline that distinguishes intentional hubs from accidental orphans. Triggers on pillar content, content hub, topic cluster, topical authority, content architecture, hub and spoke, pillar page, cluster page, content silo, internal linking strategy. Also triggers when a content set is not ranking despite individual piece quality, when a pillar was launched without a cluster, or when content has accumulated without an architecture."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Pillar Content Architecture

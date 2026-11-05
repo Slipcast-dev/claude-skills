@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "setup"
 description: "Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator. Use when the user runs /ar:setup or asks to start optimizing a file with the autoresearch loop."
 metadata:
   command: /ar:setup
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /ar:setup — Create New Experiment

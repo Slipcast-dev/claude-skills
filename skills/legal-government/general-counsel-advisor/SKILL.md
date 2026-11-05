@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "general-counsel-advisor"
 description: "General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (HIPAA, GDPR, FDA, fintech), or when user mentions general counsel, GC, legal review, contract risk, term sheet, IP assignment, or regulatory exposure. NOT a substitute for licensed counsel — surfaces questions to bring to qualified attorneys."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-05-12
   python-tools: contract_risk_scanner.py, term_sheet_analyzer.py
   frameworks: contract-review, ip-strategy, term-sheet-decoding, regulatory-mapping
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # General Counsel Advisor

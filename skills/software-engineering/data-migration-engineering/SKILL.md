@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: data-migration-engineering
 description: Проектировать и проверять преобразование данных, изменения схем и миграции с совместимостью, сверкой результата и восстановлением. Не заменяет анализ таблиц или обычный SQL-запрос без изменения данных.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Данные и миграции

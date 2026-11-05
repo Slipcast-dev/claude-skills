@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "ux-research"
 description: "Plan and execute user research including research planning, recruiting, interview design, qualitative synthesis, and translating findings into product decisions. Use this skill whenever the user wants to plan user research, design interviews, recruit participants, conduct discovery, run formative research, or synthesize qualitative findings. Triggers on user research, UX research, user interviews, discovery research, generative research, formative research, qualitative research, user insights, research synthesis, recruitment, interview guide, jobs to be done. Also triggers when product decisions are being made without user input and the user wants to fix that."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # UX Research

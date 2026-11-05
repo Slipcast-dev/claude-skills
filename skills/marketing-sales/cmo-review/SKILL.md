@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "cmo-review"
 description: "/c-level-agents:cmo-review [plan] — Narrative-first interrogation of positioning, ICP, message house, and channel mix. Use when launching a campaign or repositioning, or when CAC is rising and the one-sentence positioning test fails."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /c-level-agents:cmo-review — CMO Forcing Questions

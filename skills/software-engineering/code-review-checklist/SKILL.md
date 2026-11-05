@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: code-review-checklist
 description: "Generate a tailored code review checklist for any pull request based on the language, type of change, and risk level. Use when asked to review code, check a PR, review a pull request, or generate a code review checklist. Produces a focused checklist with language-specific checks, risk-level-appropriate depth, and a clear approve/request-changes recommendation."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Code Review Checklist Skill

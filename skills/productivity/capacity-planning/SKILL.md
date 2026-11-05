@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: capacity-planning
 description: "Produce a capacity planning document for a service covering traffic forecasts, resource requirements, and scaling strategy. Use when asked to plan infrastructure capacity, forecast resource needs, model traffic growth, define scaling strategy, or produce a capacity review for a service. Produces a structured capacity plan covering current baseline metrics, growth projections, resource requirements per tier, scaling strategy, cost projections, capacity triggers, and an infrastructure action roadmap."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Capacity Planning Skill

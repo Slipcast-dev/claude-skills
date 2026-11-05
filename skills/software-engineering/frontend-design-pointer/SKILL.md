@@ -1,8 +1,8 @@
 ---
-disable-model-invocation: true
 name: frontend-design-pointer
 description: "Point to Anthropic's frontend-design skill and explain when to use it. Use when asked how to install frontend-design, which skill sets aesthetic direction for a UI, or what handles the direction stage of the design pipeline. Produces the install command, a check that the install worked, guidance on when it fits and when it does not, and credit to the author with a link. Contains no upstream skill content."
 version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Frontend Design (pointer)

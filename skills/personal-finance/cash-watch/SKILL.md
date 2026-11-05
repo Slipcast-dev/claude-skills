@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: cash-watch
 description: "Set up a proactive agent to watch a small business's cash every day across Stripe, QuickBooks or Xero and the bank feed: today's cash position, money due in and out this week, failed payments, new disputes and the runway line, with clear rules for what interrupts you and what waits for the morning brief. Use when asked to have my agent keep an eye on cash, daily cash check for Duet, alert me about failed payments or disputes, watch my runway, or monitor Stripe and QuickBooks for me. Produces the watch definition (sources, checks, thresholds), the interrupt and brief rules, the daily cash lines in a fixed format, and the drafts the agent may prepare."
 duet:
@@ -8,6 +7,7 @@ duet:
   default_action: draft
   requires_approval: send, post, pay, sign, delete, book
   cadence: daily
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Cash Watch Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "azure-cloud-architect"
 description: "Design Azure architectures for startups and enterprises. Use when asked to design Azure infrastructure, create Bicep/ARM templates, optimize Azure costs, set up Azure DevOps pipelines, or migrate to Azure. Covers AKS, App Service, Azure Functions, Cosmos DB, and cost optimization."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Azure Cloud Architect

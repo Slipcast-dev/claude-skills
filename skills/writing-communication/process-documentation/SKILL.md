@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: process-documentation
 description: "Document any business process in a clear, structured format. Use when asked to document a process, write a process guide, create a workflow document, or map out how something works. Produces a complete process document with steps, roles, inputs, outputs, and edge cases."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Process Documentation Skill

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "competitor-alternatives"
 description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'switch from competitor,' or 'comparison content.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Competitor & Alternative Pages

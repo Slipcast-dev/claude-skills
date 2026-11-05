@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "copywriting"
 description: "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Copywriting

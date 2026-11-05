@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-diff
 description: >-
   Compares an app clone against the original: a feature parity score from the
@@ -9,6 +8,7 @@ description: >-
   user says "how close is my clone", "compare it to the original", "what's
   missing", "parity check", "diff the screens", "is it ready", or after
   /replica-test.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-diff

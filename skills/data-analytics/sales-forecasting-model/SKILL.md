@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: sales-forecasting-model
 description: "Build a structured sales forecast framework for any business or team. Use when asked to build a sales forecast, create a revenue model, project pipeline, or build a bottom-up forecast. Produces a forecast methodology, pipeline model, scenario analysis, and assumption log."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Sales Forecasting Model Skill

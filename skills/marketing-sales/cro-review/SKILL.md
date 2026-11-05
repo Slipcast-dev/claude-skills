@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "cro-review"
 description: "/c-level-agents:cro-review [plan] — Pipeline-paranoid interrogation of revenue, win rate, NRR, and ramp time. Use when the forecast misses pipeline coverage, win rates drop, or before scaling the sales team."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /c-level-agents:cro-review — CRO Forcing Questions

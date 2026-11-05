@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "merge"
 description: "Merge the winning agent's branch into base, archive losers, and clean up worktrees. Use when the user runs /hub:merge or asks to land the winning AgentHub result and tidy the session."
 metadata:
   command: /hub:merge
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /hub:merge — Merge Winner

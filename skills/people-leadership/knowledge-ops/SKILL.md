@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: knowledge-ops
 description: Use when a Head of Ops, Knowledge Manager, or TPM-Internal needs to author, validate, or clean up company SOPs and internal runbooks (procurement intake, vendor offboarding, incident-comms cascade, employee onboarding) — including 5W2H completeness checks (Who-What-When-Where-Why-How-HowMuch), cross-link and orphan-page validation across a sprawling Notion/Confluence/Obsidian wiki, KB ingestion + hygiene reporting, and runbook step verification (named owner, expected duration, observable success signal, rollback path, escalation contact). Pairs Ishikawa's 5W2H method, Gawande's *The Checklist Manifesto*, ISO 9001, ITIL v4, and Google SRE Workbook runbook discipline with deterministic stdlib-only Python tools that score completeness, detect anti-patterns, and emit prioritized cleanup lists (e.g., "validate this runbook before it goes into rotation", "audit our Confluence wiki for stale and orphaned SOPs").
 context: fork
@@ -9,6 +8,7 @@ metadata:
   author: claude-code-skills
   tags: [bizops, sop, runbook, knowledge-management, kb, 5w2h, wiki, ops-documentation]
   compatible_tools: [claude-code, codex-cli, cursor, antigravity, opencode, gemini-cli]
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # knowledge-ops

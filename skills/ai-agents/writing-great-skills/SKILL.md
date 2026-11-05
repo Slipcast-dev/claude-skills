@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: writing-great-skills
 description: "Author a high-quality Agent Skill (SKILL.md) that an AI reliably triggers and executes well — strong frontmatter, a sharp description with trigger phrases, a clear output contract, quality checks, and anti-patterns. Use when asked to write a skill, create a SKILL.md, improve a skill, review a skill for quality, or contribute to a skills library. Produces a complete, SkillCheck-passing SKILL.md plus a short rationale for the key choices."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Writing Great Skills Skill

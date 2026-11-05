@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: investor-pitch-deck
 description: "Build the narrative and slide structure for an investor pitch deck. Use when asked to create a pitch deck, investor presentation, fundraising deck, or startup pitch. Produces a slide-by-slide structure with narrative beats, key messages, and what each slide must prove to an investor."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Investor Pitch Deck Skill

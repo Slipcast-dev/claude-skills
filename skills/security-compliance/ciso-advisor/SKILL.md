@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "ciso-advisor"
 description: "Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selecting compliance frameworks, managing incidents, assessing vendor risk, or when user mentions CISO, security strategy, compliance roadmap, zero trust, or board security reporting."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-03-05
   python-tools: risk_quantifier.py, compliance_tracker.py
   frameworks: risk-based-security, zero-trust, defense-in-depth
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # CISO Advisor

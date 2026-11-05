@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: seo-content-brief
 description: "Create a structured SEO content brief for any target keyword or topic. Use when asked to write an SEO brief, content brief, keyword brief, or content strategy document. Produces a complete brief with target keyword, search intent, outline, competitor insights, internal links, and on-page SEO guidance."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SEO Content Brief Skill

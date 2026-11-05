@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: litreview
 description: "Searches academic literature through free, keyless PubMed and OpenAlex APIs, optionally augments results with Consensus MCP when connected, builds a PICO, SPIDER, decomposition, or hybrid search plan, and produces a formatted Word research-orientation guide. Uses brief intake and post-reconnaissance checkpoints to confirm the framework, sub-areas, and depth (5, 10, or 20 queries) before spending the search budget. The output is a launching pad, not a finished review. Use when the user requests a literature review, starts a paper or literature-oriented research project, or needs structured research on a topic. Do NOT use for a single paper lookup or a quick paper list; use a plain PubMed, OpenAlex, or Consensus query instead."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   build_pattern: "Path B (direct conversion)"
   research_pack_convention: "Agent Integrity Rules verbatim per PR #657 audit; sibling of pulse"
   version: 1.1.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Litreview — Academic Literature Orientation

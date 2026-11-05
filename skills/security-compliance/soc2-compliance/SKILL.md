@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "soc2-compliance"
 description: "Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis, or assess SOC 2 Type I vs Type II readiness."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SOC 2 Compliance

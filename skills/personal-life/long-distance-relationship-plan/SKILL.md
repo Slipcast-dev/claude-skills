@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: long-distance-relationship-plan
 description: "Build a plan to keep a long-distance relationship close and healthy — communication rhythms, visits, shared experiences, and a shared sense of the finish line. Use when asked to help with a long-distance relationship, how to make LDR work, we're going long distance, or keep our relationship strong apart. Produces a communication rhythm that fits both schedules and time zones, ideas for shared experiences across the distance, a visit and cost plan, ways to handle the hard parts (jealousy, loneliness, resentment), and an honest 'the plan' conversation about the end goal."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Long-Distance Relationship Plan

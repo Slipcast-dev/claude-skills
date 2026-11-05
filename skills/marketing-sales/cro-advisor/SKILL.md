@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "cro-advisor"
 description: "Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief revenue officer, revenue strategy, sales model, ARR growth, NRR, expansion revenue, churn, pricing strategy, or sales capacity."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-03-05
   python-tools: revenue_forecast_model.py, churn_analyzer.py
   frameworks: sales-playbook, pricing-strategy, nrr-playbook
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # CRO Advisor

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: raci-matrix
 description: "Define a RACI matrix for a cross-functional project or process. Use when asked to build a RACI, create a responsibility matrix, clarify ownership across teams, or document decision rights. Produces a complete RACI matrix with role definitions, decision mapping, and a process for resolving conflicts."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # RACI Matrix Skill

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: coding-agent-rollout
 description: Use when rolling Claude Code out to a team or organization, or auditing a rollout already under way — writing or reviewing shared and managed settings.json permissions, deciding which MCP servers, plugins and marketplaces to approve, cleaning up layered CLAUDE.md files, or measuring whether the team actually uses it. Lints settings across scopes, inventories every MCP server and plugin against an approved list, resolves CLAUDE.md layers and imports, and turns local session data into privacy-safe adoption counts.
 argument-hint: "[repo path | managed-settings.json | 'measure adoption']"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Four-phase rollout (guardrails, inventory, instructions, adoption) with 4 deterministic stdlib scripts and blocking exit codes; every settings key and path verified against code.claude.com/docs"
   distinct_from: "claude-coach (coaches one person's usage); skill-doctor (grades sessions to improve installed skills); security-guidance (a hook that warns on risky code patterns); prompt-governance (prompts in production apps, not the coding agent's configuration)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Claude Code Team Rollout

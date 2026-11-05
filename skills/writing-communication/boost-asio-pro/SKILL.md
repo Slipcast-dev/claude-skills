@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "boost-asio-pro"
 description: "Use when writing or reviewing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, or pre-C++20 completion-handler callbacks."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Boost.Asio / standalone Asio

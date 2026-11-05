@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: slo-error-budget
 description: "Define Service Level Objectives (SLOs) and an error budget policy for a service. Use when asked to write SLOs, define SLIs, calculate an error budget, set reliability targets, or create an error budget policy. Produces a complete SLO document with SLI definitions, target calculation, error budget policy, burn rate alerts, and review cadence."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SLO and Error Budget Skill

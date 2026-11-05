@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: epic-design
 description: >
   Build immersive, cinematic 2.5D interactive websites using scroll storytelling,
@@ -18,6 +17,7 @@ metadata:
   author: Abbas Mir
   category: engineering-team
   updated: 2026-03-13
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Epic Design Skill

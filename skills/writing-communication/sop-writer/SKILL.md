@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: sop-writer
 description: "Write a Standard Operating Procedure (SOP) for any operational task. Use when asked to write an SOP, standard operating procedure, work instruction, or operating manual. Produces a formal SOP with purpose, scope, procedure steps, quality checks, and version control."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # SOP Writer Skill

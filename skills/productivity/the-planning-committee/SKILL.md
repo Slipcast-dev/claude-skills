@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: the-planning-committee
 description: "Simulate defending your planning application before the committee that decides it — the neighbour objections read into the record, the character-of-the-area catch-all, the parking pile-on, the councillor with a pet issue — run against your actual scheme, inside a three-minute speaking slot. Use when asked to prepare for a planning committee, my application goes to committee, rehearse my three minutes, or how do I answer the objectors. Produces the hearing transcript with member reactions, the objection-by-objection answer map grounded in material considerations, and the three-minute statement rebuilt. Pairs with planning-application-statement. Not planning or legal advice."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # The Planning Committee Skill

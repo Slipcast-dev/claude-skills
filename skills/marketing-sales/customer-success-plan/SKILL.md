@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: customer-success-plan
 description: "Build a joint customer success plan for a specific account. Use when asked to create a success plan, joint success plan, mutual action plan, or customer onboarding plan. Produces a structured success plan with business goals, milestones, success metrics, ownership, and a 90-180 day roadmap."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Customer Success Plan Skill

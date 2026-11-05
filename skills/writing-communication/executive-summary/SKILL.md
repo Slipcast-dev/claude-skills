@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: executive-summary
 description: "Write an executive summary for any document, report, or proposal. Use when asked to write an executive summary, management summary, briefing paper, or one-pager for senior stakeholders. Produces a structured summary that busy executives can read in under 3 minutes and act on."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Executive Summary Skill

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: meetings
 description: Use when someone wants to decide whether a meeting is worth calling, price a meeting in dollars, build a timeboxed agenda with desired outcomes, or turn messy meeting notes into owned action items — or says "should this be a meeting", "/cs-meeting-prep", or "/cs-meeting-actions". Runs a cost gate (ASYNC / NOT-READY / MEET), builds a decision-first agenda, and extracts an owner + due-date checklist that flags every orphan.
 argument-hint: "[the meeting to gate, or the notes to extract actions from]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Path-B discipline skill — Rogelberg/HBR meeting-science canon + deterministic gate/agenda/extraction scripts"
   distinct_from: "project-management (team ceremonies + Jira delivery flow; this is personal meeting hygiene); business-operations/internal-comms (org-level communication design; this never auto-sends); productivity/capture (private brain-dump triage; this parses shared meeting notes)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Meetings — Cost Gate → Timeboxed Agenda → Owned Actions

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: api-integration-engineering
 description: Проектировать, реализовывать и проверять внешние API-интеграции, webhook, пагинацию и повторную доставку. Использовать для контрактов и отказов интеграции; не для обычного UI или выбора бизнес-инструмента.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # API и внешние интеграции

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "marketing-demand-acquisition"
 description: Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs. Use when planning demand gen strategy, growth marketing, advertising campaigns, PPC optimization, lead generation, pipeline generation, or marketing budgets. Covers multi-channel acquisition (Google Ads, LinkedIn Ads, Meta Ads), CAC analysis, MQL/SQL workflows, attribution modeling, technical SEO, and co-marketing partnerships. Default calibration profile is a Series A+ B2B SaaS scaling internationally (EU/US/Canada, hybrid PLG/Sales-Led) — adapt benchmarks for other stages and motions rather than skipping the skill.
 metadata:
@@ -24,6 +23,7 @@ metadata:
     - pipeline generation
     - acquisition strategy
     - HubSpot campaigns
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Marketing Demand & Acquisition

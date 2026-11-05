@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: prd-template
-description: "Create a Product Requirements Document following proven PM template structure. Use when asked to write a PRD, product spec, feature specification, or requirements document for a new feature or product. Produces a complete PRD with problem statement, user stories, functional requirements, technical considerations, and success metrics."
+description: "Create a Product Requirements Document following proven PM template structure."
 version: 1.0.0
 ---
 

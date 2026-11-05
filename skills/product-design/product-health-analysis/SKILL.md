@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: product-health-analysis
 description: "Interpret product metrics against goals and surface actionable signals. Use when asked to analyse product health, review key metrics, investigate a performance issue, produce a health report, or assess product-market fit signals. Produces a structured health report with RAG status, trend analysis, root cause hypotheses, and prioritised actions."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Product Health Analysis Skill

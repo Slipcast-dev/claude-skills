@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: pricing-strategist
 description: "Use when designing or revisiting product pricing — selecting a pricing model (subscription seat-based, usage-based, value-based, freemium, or hybrid), running Van Westendorp Price Sensitivity Meter analysis on WTP survey data, or designing Good/Better/Best packaging tiers. Recommends a model and a price range with trade-offs, never a single number. For Commercial leads, Product Marketing, and CMOs at the pricing-design moment — not deal-by-deal discounting, not brand positioning."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: claude-code-skills
   tags: [commercial, pricing, packaging, wtp, van-westendorp, value-based-pricing, saas-pricing]
   compatible_tools: [claude-code, codex-cli, cursor, antigravity, opencode, gemini-cli]
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # pricing-strategist

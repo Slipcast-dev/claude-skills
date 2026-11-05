@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "launch-runbook"
 description: "Plan and execute a launch runbook covering pre-launch verification, go-live procedures, DNS cutover, post-launch monitoring, and rollback procedures. Use this skill whenever the user is preparing to launch a website or product, planning a DNS cutover, building a go-live checklist, or executing a launch day. Triggers on launch runbook, go-live, launch day, DNS cutover, deploy to production, site launch, product launch, cutover plan, launch checklist, deployment procedure. Also triggers when a launch is approaching and the team needs structured coordination, even if 'runbook' is not explicitly stated."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Launch Runbook

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-brand
 description: >-
   Names and rebrands an app clone so it is the user's own: name candidates
@@ -9,6 +8,7 @@ description: >-
   "name my app", "rebrand the clone", "make it mine", "pick a name and
   colours", "logo brief", "brand voice", "check for leftovers", or after
   /replica-entrepreneur. Always runs before /replica-launch.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-brand

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: claude-superpowers
 description: "Activate a 4-stage coding discipline framework that forces Claude to plan before coding, isolate changes on a branch, write tests first, and self-review output twice before presenting it. Use when starting a complex coding task, when past Claude sessions produced broken first drafts, or when you want to prevent rework cycles. Produces a confirmed written plan, isolated feature branch, test-first implementation, and a double-reviewed output with a correctness and code-quality checklist."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Claude Superpowers Skill

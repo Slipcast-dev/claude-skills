@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: paywall-optimization
 description: "Design or optimize a paywall / upgrade screen to convert free users to paid without killing trust. Use when asked to improve a paywall, upgrade prompt, or free-to-paid conversion, or to decide what to gate. Produces the gating strategy (what's free vs. paid and why), the paywall placement and moment, the screen's copy and plan layout, and the metrics to watch — conversion that respects the user."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Paywall Optimization Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "threat-detection"
 description: "Use when hunting for threats in an environment, analyzing IOCs, or detecting behavioral anomalies in telemetry. Covers hypothesis-driven threat hunting, IOC sweep generation, z-score anomaly detection, and MITRE ATT&CK-mapped signal prioritization."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Threat Detection

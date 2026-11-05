@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: caveman
 description: >
   Ultra-compressed communication mode. Cuts token usage ~75% by dropping
@@ -13,6 +12,7 @@ metadata:
   original_license: MIT
   voice: "Matt Pocock — terse, fragment-OK, no filler"
   version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Caveman Mode

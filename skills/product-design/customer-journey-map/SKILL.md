@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: customer-journey-map
 description: "Build a customer journey map for a product, service, or experience. Use when asked to map a customer journey, create a user journey, document touchpoints and pain points, or design an experience map. Produces a complete journey map with stages, touchpoints, emotions, pain points, and prioritised opportunities."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Customer Journey Map Skill

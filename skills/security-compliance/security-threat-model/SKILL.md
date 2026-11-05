@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: security-threat-model
 description: "Write a STRIDE-based threat model for a service or feature. Use when asked to produce a threat model, document security risks, identify attack vectors, assess a service's security posture, or prepare for a security design review. Produces a structured threat model covering assets, trust boundaries, STRIDE threat enumeration per component, risk scores, mitigation controls, and residual risk sign-off."
 deprecated: 2026-08-21
 supersededBy: threat-model
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Security Threat Model Skill

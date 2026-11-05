@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: co-parenting-messages
 description: "Write calm, businesslike co-parenting messages that keep the focus on the kids and stay out of the old conflict — for scheduling, expenses, decisions, and hard topics. Use when asked to write a message to my co-parent, respond to my ex about the kids, co-parenting communication help, or how to reply without a fight. Produces a message drafted in a neutral, child-centered tone (the 'BIFF'-style brief/informative/friendly/firm approach), the bait removed, a clear ask or answer, and a note on documentation — steering away from anything that escalates. Not legal advice."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Co-Parenting Messages

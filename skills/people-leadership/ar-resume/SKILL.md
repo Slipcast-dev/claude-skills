@@ -1,9 +1,9 @@
 ---
-disable-model-invocation: true
 name: "ar-resume"
 description: "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating. Use when the user runs /ar:ar-resume or asks to pick up a previously started autoresearch experiment."
 metadata:
   command: /ar:ar-resume
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /ar:ar-resume — Resume Experiment

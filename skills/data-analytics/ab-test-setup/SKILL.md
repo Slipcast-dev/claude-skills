@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "ab-test-setup"
 description: When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "conversion experiment," "statistical significance," or "test this." For tracking implementation, see analytics-tracking.
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # A/B Test Setup

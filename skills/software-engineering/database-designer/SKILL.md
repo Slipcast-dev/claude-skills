@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "database-designer"
 description: "Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Database Designer - POWERFUL Tier Skill

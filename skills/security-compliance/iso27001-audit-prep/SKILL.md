@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "iso27001-audit-prep"
 description: "/compliance-os:iso27001-audit-prep [scope] — ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before annual Clause 9.2 internal audit, surveillance audit prep, or stage 1 certification readiness."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /compliance-os:iso27001-audit-prep — ISO 27001 ISMS Audit Forcing Questions

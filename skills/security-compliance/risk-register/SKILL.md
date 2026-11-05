@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: risk-register
 description: "Build and maintain a project or product risk register. Use when asked to create a risk register, identify project risks, build a risk matrix, or document risks and mitigations for a programme. Produces a complete risk register with likelihood/impact scoring, RAG status, ownership, and prioritised mitigations."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Risk Register Skill

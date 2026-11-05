@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-design
 description: >-
   Rebuilds an app's design system for a clone: colour roles, type scale,
@@ -9,6 +8,7 @@ description: >-
   checker. Use when the user says "match the design", "rebuild the design
   system", "get the colours and fonts", "make it look like X", "design tokens
   for my clone", or after /replica-architect.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-design

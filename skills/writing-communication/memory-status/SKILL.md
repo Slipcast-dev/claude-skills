@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "memory-status"
 description: "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Use when the user runs /si:memory-status or asks how full or healthy the agent memory is."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /si:memory-status — Memory Health Dashboard

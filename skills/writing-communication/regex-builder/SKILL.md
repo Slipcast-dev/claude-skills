@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: regex-builder
 description: "Build a regular expression from a plain-English description, or explain an existing one. Use when asked to write a regex, match/validate/extract a pattern, or understand what a regex does. Produces the regex, a token-by-token breakdown, passing and failing test cases, and notes on flavor/edge cases."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Regex Builder & Explainer Skill

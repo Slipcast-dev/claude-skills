@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: replica-test
 description: >-
   Clicks through every flow of an app clone and tests it for bugs: a test plan
@@ -9,6 +8,7 @@ description: >-
   user says "test my clone", "find bugs", "QA this", "click through
   everything", "write e2e tests", "does it work", or after /replica-build or
   /replica-backend.
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # replica-test

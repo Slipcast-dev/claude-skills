@@ -1,8 +1,8 @@
 ---
-disable-model-invocation: true
 name: "collab-proof"
 description: "Use when you want to understand what Claude contributed vs what you drove in a session. Triggers on: /collab-proof, session retrospective, ai contribution analysis, collaboration evidence, what did claude do."
 license: MIT
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # collab-proof

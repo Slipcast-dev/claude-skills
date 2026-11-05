@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "monitoring-and-alerting"
 description: "Design and run a monitoring system for a website or web app. Use this skill when setting up uptime checks, defining SLOs, configuring error tracking, choosing what to alert on, designing on-call rotations, or fixing alert fatigue. Triggers on monitoring, alerts, uptime, SLO, SLA, error rate, on-call, pager, alert fatigue, observability, dashboards, what should we monitor. Also triggers when an incident reveals a gap in monitoring."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Monitoring and Alerting

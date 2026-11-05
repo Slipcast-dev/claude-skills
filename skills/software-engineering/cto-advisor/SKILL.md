@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "cto-advisor"
 description: "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technical debt, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, or technology strategy."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-03-05
   python-tools: tech_debt_analyzer.py, team_scaling_calculator.py
   frameworks: architecture-decisions, engineering-metrics, technology-evaluation
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # CTO Advisor

@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: payroll-eve-check
 description: "Have a proactive agent check payroll the day before it runs in Gusto, Deel, Xero Payroll or similar: unusual pay changes, new starters and leavers, missing approvals, enough cash in the funding account, and anything that would make a payslip wrong, reported as a short pre-run list for a human to approve. Use when asked to check payroll before it runs, catch payroll mistakes, have Duet review Gusto before payday, pre-payroll checklist, or alert me if payroll looks wrong. Produces the pre-run checks, the anomaly list with each line's evidence, the funding check, and the questions for the payroll owner; it never runs, edits or approves payroll."
 duet:
@@ -8,6 +7,7 @@ duet:
   default_action: draft
   requires_approval: send, post, pay, sign, delete, book
   cadence: daily
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Payroll Eve Check Skill

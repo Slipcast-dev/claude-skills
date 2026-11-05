@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: physio-initial-assessment
 description: "Structure a physiotherapy initial assessment so the subjective drives the objective and the plan follows from both — the history that localises the problem, the red and yellow flags screened deliberately, and goals set in the patient's own terms. Use when asked to structure a physio initial assessment, write an assessment template, document a first appointment, or improve subjective examination. Produces the subjective structure, the flag screen, the objective examination plan, the working hypothesis with competing explanations, and patient-centred goals. A documentation framework for a licensed clinician."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Physiotherapy Initial Assessment

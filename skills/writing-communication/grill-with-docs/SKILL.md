@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: grill-with-docs
 description: Docs-anchored grilling session — challenges a plan against the project's existing language (CONTEXT.md) and recorded decisions (docs/adr/), and updates those files inline as terminology and decisions crystallise. Use when user wants to stress-test a plan against documented domain language, or mentions "grill with docs".
 license: MIT
@@ -9,6 +8,7 @@ metadata:
   original_license: MIT
   voice: "Matt Pocock — relentless, one-at-a-time, codebase-and-docs-first, ADRs only when 3 criteria are met"
   version: 1.0.0
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Grill with Docs

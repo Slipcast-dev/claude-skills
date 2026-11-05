@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: user-journey-map
 description: "Map a user's journey through a product or experience, phase by phase, with their actions and how they feel. Use when asked to map a user/customer journey, show the experience end-to-end, or find friction and drop-off points. Produces a ready-to-render Mermaid journey diagram (renders live, exportable as PNG/SVG) plus the friction points and opportunities."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # User Journey Map Skill

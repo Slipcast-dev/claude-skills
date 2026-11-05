@@ -1,7 +1,6 @@
 ---
-disable-model-invocation: true
 name: frontend-design
-description: "Produce frontend UI that actually looks designed — a working spacing/type system, deliberate color use, real states, and restraint — instead of the generic AI-generated interface. Use when asked to build or restyle a UI, landing page, dashboard, or component, when output 'works but looks like a prototype', or to establish the visual system for a new app. Produces working HTML/CSS (or framework components) built on an explicit token system, with hover/focus/empty/loading states included. For critiquing an existing design use design-critique; for auditing a design system use design-system-audit."
+description: "Produce frontend UI that actually looks designed — a working spacing/type system, deliberate color use, real states, and restraint — instead of the generic…"
 ---
 
 # Frontend Design Skill

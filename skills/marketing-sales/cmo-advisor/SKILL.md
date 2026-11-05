@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "cmo-advisor"
 description: "Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or when user mentions CMO, brand strategy, growth model, CAC, LTV, channel mix, or marketing ROI."
 license: MIT
@@ -11,6 +10,7 @@ metadata:
   updated: 2026-03-05
   python-tools: marketing_budget_modeler.py, growth_model_simulator.py
   frameworks: brand-positioning, growth-frameworks, marketing-org
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # CMO Advisor

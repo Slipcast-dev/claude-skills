@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: pptx-slide-auditor
 description: "Audit a PowerPoint presentation for layout issues, text overflow, visual hierarchy problems, and consistency gaps. Use when asked to review a slide deck, check a presentation before a meeting, audit slides for layout problems, or QA a deck before sharing. Produces a slide-by-slide report with issues ranked by severity and specific fixes. Works best with current frontier Claude models for reliable slide-level vision analysis."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # PPTX Slide Auditor Skill

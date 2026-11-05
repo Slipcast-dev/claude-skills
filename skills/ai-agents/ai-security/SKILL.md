@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "ai-security"
 description: "Use when assessing AI/ML systems for prompt injection, jailbreak vulnerabilities, model inversion risk, data poisoning exposure, or agent tool abuse. Covers MITRE ATLAS technique mapping, injection signature detection, and adversarial robustness scoring."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # AI Security

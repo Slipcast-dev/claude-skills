@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: roast
 description: Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, "convene the panel", get a brutal second opinion before building something, or says "/roast". Spins up a 5-angle panel (Critic, Champion, Analyst, Investigator, Customer) that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.
 argument-hint: "[the idea to roast]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Path-B persona skill — adversarial panel + deterministic verdict tools"
   distinct_from: "andreessen (single market-first lens, not a panel); c-level boardroom (enterprise C-suite pipeline requiring company-context onboarding); grill-me (interrogates, no verdict)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Roast — 5-Angle Idea Panel → One Verdict

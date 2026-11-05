@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: relationship-check-in
 description: "Run a calm, regular relationship check-in with your partner — a structured 'how are we doing' conversation that catches small things before they become big ones. Use when asked how to check in with my partner, we need to talk about our relationship, set up a relationship check-in, or improve communication with my partner. Produces a simple check-in structure (appreciations, what's working, what needs attention, needs and asks), ground rules that keep it safe not combative, prompts to surface the real stuff, a cadence that fits you, and a note on when an issue is bigger than a check-in."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Relationship Check-In

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: entity-relationship-diagram
 description: "Turn a data model into an entity-relationship (ER) diagram. Use when asked to design a schema, model data, show how tables/entities relate, or diagram a database. Produces a ready-to-render Mermaid ER diagram (renders live, exportable as PNG/SVG) plus key attributes, cardinality, and design notes."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Entity-Relationship Diagram Skill

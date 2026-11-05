@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: instagram-post-downloader
 description: "Download and save Instagram posts as high-resolution files. Use when asked to download, save, or archive an Instagram post, reel thumbnail, or carousel. Produces saved high-res images in a named folder, with carousel slides stitched into a single PDF; supports batch downloading of multiple URLs at once."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Instagram Post Downloader Skill

@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "strict-api"
 description: "Use when the user says 'no hallucinations', 'verify APIs', 'reality check', or 'don't invent functions'. Prevents the agent from calling methods, imports, or variables that do not provably exist in the user's installed version."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Strict API Verification

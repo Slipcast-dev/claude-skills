@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: agent-regression-evals
 description: Use when an agent, prompt, model or tool change needs proof it did not make the agent worse — setting up a regression eval suite, deciding whether a pass-rate drop is real or noise, grading tool-call trajectories, finding flaky eval cases, or wiring an eval gate into CI that blocks the merge. Runs repeated trials, reports pass@k and pass^k, compares candidate to baseline with paired statistics, and refuses to pass a dropped case, a critical-case regression, or a forbidden tool call.
 argument-hint: "[baseline.jsonl candidate.jsonl | results.jsonl | a question about agent evals]"
@@ -8,6 +7,7 @@ metadata:
   version: 1.0.0
   build_pattern: "Statistics-first eval gate: 3 deterministic stdlib scripts (trajectory grading, flake detection, paired regression gate) with blocking exit codes"
   distinct_from: "prompt-governance (versions and registers prompts; this gates a change with statistics); self-eval (grades one session's work); agenthub eval (ranks parallel agents in one session)"
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Agent Regression Evals — prove the change did not make it worse

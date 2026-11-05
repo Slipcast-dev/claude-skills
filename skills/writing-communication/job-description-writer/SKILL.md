@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: job-description-writer
 description: "Write a clear, inclusive, and structured job description for any role. Use when asked to write a job description, job posting, JD, or job advert. Produces a complete JD with role summary, responsibilities, requirements, and inclusive language review."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Job Description Writer Skill

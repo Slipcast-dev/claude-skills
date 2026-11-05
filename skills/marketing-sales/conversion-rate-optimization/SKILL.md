@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: conversion-rate-optimization
 description: "Audit a landing page or funnel step and produce a prioritised CRO test plan. Use when asked to improve conversion rate, audit a landing/signup/checkout page, reduce funnel drop-off, or plan A/B tests for a page. Produces a CRO plan — a heuristic conversion audit, the diagnosed friction, prioritised test hypotheses (ICE), test designs with sample-size math, and the measurement guardrails."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Conversion Rate Optimization Skill

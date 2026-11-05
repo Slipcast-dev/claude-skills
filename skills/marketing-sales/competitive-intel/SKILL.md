@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: "competitive-intel"
 description: "Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards, tracking market moves, positioning against alternatives, or when user mentions competitive intelligence, competitive analysis, competitor research, battlecards, win/loss, or market positioning."
 license: MIT
@@ -10,6 +9,7 @@ metadata:
   domain: competitive-strategy
   updated: 2026-03-05
   frameworks: ci-playbook, battlecard-template
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Competitive Intelligence

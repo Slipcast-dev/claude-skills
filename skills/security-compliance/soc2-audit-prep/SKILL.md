@@ -1,7 +1,7 @@
 ---
-disable-model-invocation: true
 name: "soc2-audit-prep"
 description: "/compliance-os:soc2-audit-prep [scope] — SOC 2 Type II readiness 6-question forcing interrogation. Observation-period focused. Use before Type II observation begins, mid-period checkpoint, or pre-field-test month-10 readiness."
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # /compliance-os:soc2-audit-prep — SOC 2 Type II Forcing Questions

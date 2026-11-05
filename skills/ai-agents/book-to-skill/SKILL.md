@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 name: book-to-skill
 description: "Converts books, documentation folders, and source collections (PDF, EPUB, DOCX, HTML, Markdown, RST, AsciiDoc, RTF, MOBI/AZW) into structured agent skills — extracting named frameworks, principles, techniques, and anti-patterns into a master SKILL.md plus on-demand chapter files, a glossary, a patterns file, and a decision cheatsheet. Use when the user wants to study a document with an agent, apply an author's frameworks while working, turn internal docs or standards into a reusable knowledge base, or package a compiled book skill as a claude-skills plugin."
 license: MIT
@@ -8,6 +7,7 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-08-05
+disable-model-invocation: true  # skill-optimizer
 ---
 
 # Book-to-Skill Converter
